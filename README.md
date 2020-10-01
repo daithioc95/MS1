@@ -10,6 +10,7 @@ The website will contain a simple design to ensure the primary function of provi
 To complement this an interactive, easy on the eye design will be implemented.
 This will be executed by designing a single paged long scroll website, with options to navigate to any particular sections using the Menu bar.
 Implementing this design will keep the audience engages and compliment the users stories by firstly feeding the user with “what” it is that do, secondly, showing projects to convey “How” I do it and finally, providing a means of contact should they want to collaborate.
+
 ###User Stories
 - As a recruiter/potential client, I was to see the web developers experience, so that I can see if this is relevant to the job/project requirements.
 - As a recruiter/potential client, I was to see the web developers’ skills, so that I can see if these skills match the job/project.
