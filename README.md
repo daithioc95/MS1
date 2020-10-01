@@ -1,6 +1,6 @@
 # User Centric Frontend Development Milestone Project 
 
-This project be a portfolio website so that I can showcase my skills and experience to recruiters and potential clients.
+This project will be a portfolio website so that I can showcase my skills and experience to recruiters and potential clients.
 The website will be a means to which I can portray my experience, skills to the audience in a pleasant manner.
 The website will also be interactive and include designs which can be appreciated by any web user.
 
