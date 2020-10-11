@@ -1,0 +1,40 @@
+h1{
+  font-family: Montserrat;
+}
+
+#welcome-image{
+     height:850px;
+    width:100%;
+  /* border: 2px solid black; */
+    opacity: 0.5;
+   background: url("https://get.pxhere.com/photo/laptop-desk-book-pencil-creative-advertising-brand-product-design-graphic-design-33.jpg") no-repeat center;
+  background-size: contain;
+  animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@media only screen and (max-width: 767px) {
+   #welcome-image{
+    height:240px;
+    width:100%;
+  /* border: 2px solid black; */
+  opacity: 0.5;
+   background: url("https://get.pxhere.com/photo/laptop-desk-book-pencil-creative-advertising-brand-product-design-graphic-design-33.jpg") no-repeat center;
+  background-size: contain;
+  }
+}
+
+h2{text-align: center;}
+
+p{
+  text-align: center;
+}
+
+#headshot{
+  background: url("https://github.com/daithioc95/miniProject1/blob/master/assets/images/logo.jpg?raw=true") no-repeat center center;
+  height: 100%;
+  background-size: cover;
+  border-radius: 50%;
+  filter: grayscale(100%);
+}
