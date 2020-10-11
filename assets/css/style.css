@@ -58,7 +58,7 @@ p{
   height: 300px;
   padding: 30px;
   border-style: solid;
-  border-color: lightgray;
+  border-color: #28bbb270;
   border-width: 1px;
   border-radius: 50%;
   margin: 0 auto;}
@@ -130,3 +130,13 @@ footer{
     margin-left: auto;
 }
 
+h2#about-heading, h2#skills-heading {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding-top: 10px;
+    margin-top: 30px;
+}
