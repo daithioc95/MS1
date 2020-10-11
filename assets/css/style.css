@@ -1,5 +1,8 @@
-h1{
-  font-family: Montserrat;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+h1, h2, h4{
+  /* font-family: Montserrat; */
+  font-family: 'Roboto Slab', serif;
 }
 
 #welcome-image{
@@ -28,6 +31,7 @@ h1{
 h2{text-align: center;}
 
 p{
+    font-family: 'Roboto Slab', serif;
   text-align: center;
 }
 
@@ -106,3 +110,23 @@ footer{
 
 #brand{
   color: #28bbb2;}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #28bbb2;
+}
+
+#progress-type{width: 60px;
+    background-color: #28bbb2;
+    color: white;
+    height: 100%;
+    text-align: center;}
+
+.progress {
+    margin-bottom: 12px;
+    height: auto;
+}
+
+.progress-amount{
+    margin-left: auto;
+}
+
