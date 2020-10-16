@@ -130,11 +130,13 @@ footer{
     margin-left: auto;
 }
 
-h2#about-heading, h2#skills-heading {
+h2#about-heading, h2#skills-heading, h2#experience-heading {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
+h2#experience-heading{
+    margin-left: 30px;
+}
 footer {
     background-color: #f8f9fa;
     padding-top: 10px;
@@ -259,7 +261,7 @@ background: rgba(255,255,255, 0.5);
 
 }
 
-#china.map-point:active, #china.map-point:focus{height: 550px;
+#china.map-point:active, #china.map-point:focus{height: 570px;
 
 }
 #china.map-point{
@@ -312,12 +314,11 @@ background: rgba(255,255,255, 0.5);
 /*   box-sizing: border-box; */
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 0; /*edited*/
-/*   text-transform: uppercase; */
+/* h1, h2, h3, h4, h5, h6 {
+  margin: 0; 
   font-family: "Roboto Condensed", Helvetica, sans-serif;
 font-weight: 300;
-}
+} */
 
 /* h1 {
   font-size: 36pt;

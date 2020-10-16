@@ -74,6 +74,7 @@
                 </div>
 
       <!-- Skills -->
+        <!-- should row go here? -->
             <div class="col-lg-6">
                 <div class="row">
                     <div class="col-lg-12 col-sm-12">
@@ -161,19 +162,27 @@
 	        </div>
 	    </div>
         <!-- experience map -->
-        <h2 id="experience-heading">Experience</h2>
-        <p>Click locations for more information</p>
-        <div class="distribution-map">
-    <!-- This was broken for a while because image hosts are annoying, so now it's a data uri. Sorry :( -->
-    <img id = "atlas" src="https://github.com/daithioc95/MS1/blob/master/assets/images/map-world-1450907-pxhere.com.jpg?raw=true" alt="" />
-    <!--In the original application, these points are injected with Javascript, but ideally, they'd be injected with a haml loop. Because I'm hardcoding content, I'm presenting this as prerendered HTML-->
-    <button id = "thailand" class="map-point" style="top:45%;left:75%">
-        <div class="content">
-            <div class="centered-y">
-                <div id= "experience" class="list-group">
-                  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start bg-transparent">
-    <div class="d-flex w-100 justify-content-between">
-      <h5 class="mb-1">SCB Future Leader Challenge</h5>
+        <div class="experience-section container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-12-lg">
+                    <h2 id="experience-heading">Experience</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12-lg d-none d-lg-block">
+                    <p>Click locations for more information</p>
+                </div>
+            </div>
+                <div class="row">
+                    <div class="distribution-map col-12-lg d-none d-lg-block">
+                        <img id = "atlas" src="https://github.com/daithioc95/MS1/blob/master/assets/images/map-world-1450907-pxhere.com.jpg?raw=true" alt="" />
+                            <button id = "thailand" class="map-point" style="top:45%;left:75%">
+                                <div class="content">
+                                    <div class="centered-y">
+                                        <div id= "experience" class="list-group">
+                                            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start bg-transparent">
+                                                <div class="d-flex w-100 justify-content-between">
+                                                    <h5 class="mb-1">SCB Future Leader Challenge</h5>
       <h6>Semi Finalist</h6>
       <small class="text-muted">May 2018</small>
     </div>
@@ -186,7 +195,7 @@
 </div>
             </div>
         </div>
-    </button>
+                            </button>
 
     <button id="ireland" class="map-point" style="top:22%;left:43%">
         <div class="content">
@@ -226,6 +235,8 @@
     </p><small class="text-muted">Dublin, Ireland</small>
   </a>
 </div>
+            </div>
+        </div>
     </button>
 
     <button id = "usa" class="usa map-point" style="top:31%;left:15%">
@@ -281,9 +292,13 @@
     </p><small class="text-muted">Haining, China</small>
   </a>
 </div>
+            </div>
+        </div>
     </button>
-</div>
 
+</div>
+                </div>
+                </div>
     </section>
 
     <footer>
