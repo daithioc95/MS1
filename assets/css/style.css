@@ -153,10 +153,12 @@ a {
   text-decoration: none;
   color: #28bbb2;
 }
-a:visited {
+
+/* try bottom 2 to apply for desktop only? */
+.distribution-map > a:visited {
   color: #28bbb2;
 }
-li.active a, a:hover, a:active {
+.distribution-map > li.active a, .distribution-map > a:hover, .distribution-map > a:active {
   color: #28bbb2;
 }
 
