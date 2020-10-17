@@ -261,7 +261,8 @@ background: rgba(255,255,255, 0.5);
 
 }
 
-#china.map-point:active, #china.map-point:focus{height: 570px;
+#china.map-point:active, #china.map-point:focus{height: 600px;
+    width: 900px;
 
 }
 #china.map-point{
@@ -356,3 +357,17 @@ strong {
 #atlas{
     opacity: 0.7;
 }
+
+.experience-icon{
+    margin-right: 10px;
+}
+
+#exp-des{
+    border: none;
+}
+
+#exp-media:hover {
+    color: #28bbb2;
+}
+
+/* .exp-media{list-style-type: none;} */
