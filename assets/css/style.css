@@ -379,11 +379,11 @@ strong {
 
 .mob-ul-list-exp{
     padding-left: 10px;
-    color: #28bbb2;
+    /* color: #28bbb2; */
 }
 
 .mob-li-list-exp{
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 /* margin left = 10  */
 
