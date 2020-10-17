@@ -134,9 +134,9 @@ h2#about-heading, h2#skills-heading, h2#experience-heading {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-h2#experience-heading{
+/* h2#experience-heading{
     margin-left: 30px;
-}
+} */
 footer {
     background-color: #f8f9fa;
     padding-top: 10px;
@@ -369,5 +369,18 @@ strong {
 #exp-media:hover {
     color: #28bbb2;
 }
+
+.mobile-exp{
+    text-align: center;
+}
+
+.mob-ul-list-exp{
+    padding-left: 10px;
+}
+
+.mob-li-list-exp{
+    margin-bottom: 10px;
+}
+/* margin left = 10  */
 
 /* .exp-media{list-style-type: none;} */
