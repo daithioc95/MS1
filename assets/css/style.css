@@ -6,6 +6,10 @@ h1, h2, h3, h4{
   color: #28bbb2;
 }
 
+.nav-item{
+    text-align: center;
+}
+
 #welcome-image{
      height:850px;
     width:100%;
