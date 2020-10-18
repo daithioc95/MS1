@@ -131,7 +131,7 @@ footer{
     margin-left: auto;
 }
 
-h2#about-heading, h2#skills-heading, h2#experience-heading {
+h2#about-heading, h2#skills-heading, h2#experience-heading, h2#portfolio-heading {
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -388,3 +388,26 @@ strong {
 /* margin left = 10  */
 
 /* .exp-media{list-style-type: none;} */
+
+.portfolio-1-image{
+    border: 2px solid black;
+    padding-bottom: 100%;
+    position: relative;
+}
+
+/* #portfolio-1-entry{
+   clear: both;
+                    float: left;
+                    padding: 0; 
+}
+
+.portfolio-2-entry{
+    background-color: #28bbb2;
+    height: 260px;
+    width: 260px;
+} */
+/* 
+clear: both;
+                    width: 100%;
+                    float: left;
+                    padding: 0; */
