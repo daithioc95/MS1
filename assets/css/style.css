@@ -393,10 +393,14 @@ strong {
 
 /* .exp-media{list-style-type: none;} */
 
-.portfolio-1-image{
+.portfolio-image{
     border: 2px solid black;
     padding-bottom: 100%;
     position: relative;
+}
+
+#portfolio-1-image{
+    background-image: url("https://github.com/daithioc95/MS1/blob/master/assets/images/justlogo.gif?raw=true")
 }
 
 /* #portfolio-1-entry{
