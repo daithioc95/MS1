@@ -395,12 +395,18 @@ strong {
 
 .portfolio-image{
     border: 2px solid black;
-    padding-bottom: 100%;
+    /* padding-bottom: 100%; */
     position: relative;
+    
+}
+
+#btt_logo, #portfolio-2-image, #portfolio-3-image{
+    width: 100%;
 }
 
 #portfolio-1-image{
-    background-image: url("https://github.com/daithioc95/MS1/blob/master/assets/images/justlogo.gif?raw=true")
+    /* content: url("https://github.com/daithioc95/MS1/blob/master/assets/images/Justlogo.gif?raw=true");
+    background-repeat: no-repeat, repeat; */
 }
 
 /* #portfolio-1-entry{
