@@ -394,14 +394,19 @@ strong {
 /* .exp-media{list-style-type: none;} */
 
 .portfolio-image{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     /* padding-bottom: 100%; */
     position: relative;
     
 }
 
-#btt_logo, #portfolio-2-image, #portfolio-3-image{
+#btt_logo, #portfolio-2-image, #portfolio-3-image, #portfolio-4-image{
     width: 100%;
+}
+
+#btt_logo{
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 #portfolio-1-image{
