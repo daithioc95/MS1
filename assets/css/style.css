@@ -135,7 +135,7 @@ footer{
     margin-left: auto;
 }
 
-h2#about-heading, h2#skills-heading, h2#experience-heading, h2#portfolio-heading {
+h2#about-heading, h2#skills-heading, h2#experience-heading, h2#portfolio-heading, h2#contact-heading {
     margin-top: 30px;
     margin-bottom: 30px;
 }
