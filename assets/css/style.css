@@ -409,6 +409,13 @@ strong {
     padding-bottom: 5%;
 }
 
+.hvr-sweep-to-top:before{
+  background: #28bbb2;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+
 #portfolio-1-image{
     /* content: url("https://github.com/daithioc95/MS1/blob/master/assets/images/Justlogo.gif?raw=true");
     background-repeat: no-repeat, repeat; */
