@@ -77,10 +77,6 @@ p{
   text-align: center;
 }
 
-footer{
-  background-color: #f8f9fa;
-  padding-top: 10px;
-}
 
 .list-inline.social-links{
   margin-bottom: 0;
@@ -144,8 +140,9 @@ h2#about-heading, h2#skills-heading, h2#experience-heading, h2#portfolio-heading
 } */
 footer {
     background-color: #f8f9fa;
-    padding-top: 10px;
+    padding: 25px;
     margin-top: 30px;
+    border-top: 2px solid rgba(0,0,0,.075);
 }
 
 /* experience map */
