@@ -136,8 +136,8 @@ footer{
 }
 
 h2#about-heading, h2#skills-heading, h2#experience-heading, h2#portfolio-heading, h2#contact-heading {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 /* h2#experience-heading{
     margin-left: 30px;
@@ -414,6 +414,17 @@ strong {
   opacity: 0.5;
   z-index: 1;
 }
+
+#contact-form{
+    text-align: center;
+    margin: 0px auto;
+    width: 70%;
+}
+
+.form-group{
+    margin-top: 15px;
+}
+
 
 
 #portfolio-1-image{
