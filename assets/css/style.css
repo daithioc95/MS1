@@ -269,9 +269,9 @@ background: rgba(255,255,255, 0.5);
   transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out; 
   overflow: visible;
 }
-.distribution-map .map-point:active .content a:hover, .distribution-map .map-point:active .content a:active, .distribution-map .map-point:focus .content a:hover, .distribution-map .map-point:focus .content a:active {
+/* .distribution-map .map-point:active .content a:hover, .distribution-map .map-point:active .content a:active, .distribution-map .map-point:focus .content a:hover, .distribution-map .map-point:focus .content a:active {
   color: black;
-}
+} */
 
 #thailand.map-point:active, #thailand.map-point:focus{height: 200px;
 
@@ -389,6 +389,9 @@ strong {
 
 #exp-media:hover {
     color: #28bbb2;
+}
+#exp-media {
+    color: black;
 }
 
 .mobile-exp{
