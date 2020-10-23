@@ -92,7 +92,16 @@ width: 120px;
   background: url("https://github.com/daithioc95/MS1/blob/8c6c5d1bf5b5cc7b7edddcd8f3ed60767ee06317/assets/images/logos/Zhejiang_University_Logo.png?raw=true") no-repeat center center;
   background-size: cover;
   border-radius: 50%;
-    
+}
+
+#ucd-logo-circle-container{
+width: 120px;
+  height: 120px;
+  padding: 0px;
+  margin: 0 auto;
+  background: url("https://github.com/daithioc95/MS1/blob/master/assets/images/logos/UCD_logo.png?raw=true") no-repeat center center;
+  background-size: cover;
+  border-radius: 50%;
 }
 
 h5.mb-1{
