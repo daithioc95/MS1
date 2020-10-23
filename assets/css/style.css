@@ -122,19 +122,29 @@ p{
     color: #28bbb2;
 }
 
-#progress-type{width: 60px;
+#progress-type{width: fit-content;
     background-color: #28bbb2;
     color: white;
     height: 100%;
-    text-align: center;}
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    font-weight: 500}
+
+.progress-amount{text-align: center;
+    padding: 5px;
+    font-weight: 500}
 
 .progress {
-    margin-bottom: 12px;
+    margin-bottom: 20px;
     height: auto;
 }
 
 .progress-amount{
     margin-left: auto;
+}
+
+.progress-section{
+    margin-top: 55px;
 }
 
 h2#about-heading, h2#skills-heading, h2#experience-heading, h2#portfolio-heading, h2#contact-heading {
@@ -434,7 +444,9 @@ strong {
 
 }
 
-
+#FullStack-heading, #Communication-heading{
+    text-align: center;
+}
 
 #portfolio-1-image{
     /* content: url("https://github.com/daithioc95/MS1/blob/master/assets/images/Justlogo.gif?raw=true");
