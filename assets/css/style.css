@@ -100,13 +100,12 @@ width: 120px;
   padding: 0px;
   margin: 0 auto;
   background: url("https://github.com/daithioc95/MS1/blob/master/assets/images/logos/UCD_logo.png?raw=true") no-repeat center center;
-  background-size: cover;
-  border-radius: 50%;
+  background-size: contain;
 }
 
-h5.mb-1{
+/* h5.mb-1{
     margin-top: 20px;
-}
+} */
 
   #center-about{clear: both;
                     width: 100%;
