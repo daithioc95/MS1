@@ -84,6 +84,17 @@ width: 120px;
   border-radius: 50%;
 }
 
+#zheda-logo-circle-container{
+width: 120px;
+  height: 120px;
+  padding: 0px;
+  margin: 0 auto;
+  background: url("https://github.com/daithioc95/MS1/blob/8c6c5d1bf5b5cc7b7edddcd8f3ed60767ee06317/assets/images/logos/Zhejiang_University_Logo.png?raw=true") no-repeat center center;
+  background-size: cover;
+  border-radius: 50%;
+    
+}
+
 h5.mb-1{
     margin-top: 20px;
 }
