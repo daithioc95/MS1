@@ -123,6 +123,24 @@ width: 120px;
   background-size: contain;
 }
 
+#gge-logo-circle-container{
+width: 120px;
+  height: 120px;
+  padding: 0px;
+  margin: 0 auto;
+  background: url("https://github.com/daithioc95/MS1/blob/cb71b41efaace90d7b2ac3b8787317c2b2d8a636/assets/images/logos/gge_logo.png?raw=true") no-repeat center center;
+  background-size: contain;
+}
+
+#yosemite-logo-circle-container{
+    width: 120px;
+  height: 120px;
+  padding: 0px;
+  margin: 0 auto;
+  background: url("https://github.com/daithioc95/MS1/blob/cb71b41efaace90d7b2ac3b8787317c2b2d8a636/assets/images/logos/yosemite_logo.jpg?raw=true") no-repeat center center;
+  background-size: contain;
+}
+
 /* h5.mb-1{
     margin-top: 20px;
 } */
