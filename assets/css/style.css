@@ -65,6 +65,8 @@ p{
 
 /* div{border: 1px solid black;} */
 
+
+
 #circle-container{width: 300px;
   height: 300px;
   padding: 30px;
@@ -100,6 +102,24 @@ width: 120px;
   padding: 0px;
   margin: 0 auto;
   background: url("https://github.com/daithioc95/MS1/blob/master/assets/images/logos/UCD_logo.png?raw=true") no-repeat center center;
+  background-size: contain;
+}
+
+#ppb-logo-circle-container{
+width: 120px;
+  height: 120px;
+  padding: 0px;
+  margin: 0 auto;
+  background: url("https://github.com/daithioc95/MS1/blob/c5c72cd462025c7e859d20acf8eee487a3075d2f/assets/images/logos/PPB_logo.jpg?raw=true") no-repeat center center;
+  background-size: contain;
+}
+
+#cb-logo-circle-container{
+width: 120px;
+  height: 120px;
+  padding: 0px;
+  margin: 0 auto;
+  background: url("https://github.com/daithioc95/MS1/blob/c5c72cd462025c7e859d20acf8eee487a3075d2f/assets/images/logos/coderbunker-cropped.png?raw=true") no-repeat center center;
   background-size: contain;
 }
 
