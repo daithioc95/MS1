@@ -530,6 +530,10 @@ strong {
     margin-bottom: 15px;
 }
 
+.qualitative-skills{
+    margin-left: 0;
+}
+
 #portfolio-1-image{
     /* content: url("https://github.com/daithioc95/MS1/blob/master/assets/images/Justlogo.gif?raw=true");
     background-repeat: no-repeat, repeat; */
