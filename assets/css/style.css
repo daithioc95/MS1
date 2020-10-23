@@ -148,7 +148,8 @@ footer {
     background-color: #f8f9fa;
     padding: 25px;
     margin-top: 30px;
-    border-top: 2px solid rgba(0,0,0,.075);
+    border-top:     2px solid rgba(40,187,178,.75)
+;
 }
 
 /* experience map */
@@ -429,7 +430,8 @@ strong {
 }
 
 #header-menu{
-    border-bottom: 2px solid rgba(0,0,0,.075);
+    border-bottom: 2px solid rgba(40,187,178,.75);
+
 }
 
 
