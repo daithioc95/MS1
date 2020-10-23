@@ -428,6 +428,10 @@ strong {
     margin-top: 15px;
 }
 
+#header-menu{
+    border-bottom: 2px solid rgba(0,0,0,.075);
+}
+
 
 
 #portfolio-1-image{
