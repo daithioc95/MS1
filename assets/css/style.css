@@ -522,6 +522,14 @@ strong {
     text-align: center;
 }
 
+.edu-logo-heading{
+    color:#28bbb2;
+}
+
+.experience-icon{
+    margin-bottom: 15px;
+}
+
 #portfolio-1-image{
     /* content: url("https://github.com/daithioc95/MS1/blob/master/assets/images/Justlogo.gif?raw=true");
     background-repeat: no-repeat, repeat; */
