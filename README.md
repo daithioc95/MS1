@@ -18,7 +18,7 @@ Implementing this design will keep the audience engages and compliment the users
 - As a recruiter/potential client, I want to easily find this information while appreciating the websites design, so that I can see that the developer is competent in front-end development.
 - As a recruiter/potential client, if interested I want to contact to the developer, so that I can see if he is available for work.
 
-###Design Process 
+### Design Process 
 I began the design process by firstly identifying the sections neccessary to meet the criteria of my use stories. This included the Home, About, Experience, Portfolio & Contact sections.
 The next stage of the process was to brainstorm features. 
 In addition to the usual sections a portfolio website contains, I wanted to use an interactive map as a statement piece to showcase CSS skills and provide information on my international experience.
@@ -33,9 +33,24 @@ See Desktop Wireframe [here](assets/MS1_Desktop.pdf)
 
 See Mobile Wireframe [here](assets/MS1_Mobile.pdf)
 
-##Features
+## Features
 Breakdown of the website features by section
 
+### Home
+Simple image which I found on pxhere.com.
+I choose this as the yellow glow from the wood matches the teal and the map feature image to appear later.
+
+### About
+The About section contains a heading with a circle container and a circle headshop image.
+The end of the about section contains a progress bar section.
+Other features include font awesome icons.
+
+### Experience
+For desktop, this seciton includes an interactive map which shows experience depending on location.
+
+### Porfolio
+
+### Contact
 
 ## Technologies Used
 The main technologies used are as below.
@@ -48,31 +63,50 @@ The main technologies used are as below.
   Used for the map feature, which required alot of trial and error. CodePen was great to instantly see how my changes effected positioning.
 - Bootstrap
   Used throughout the website to easily implement consitent designs, such as the below
-  -- Navbar
-  -- Grid System
-  -- Progress bars in skills section
-  -- Layout of entries in experience section
-  -- Form in the contact section
+  - Navbar
+  - Grid System
+  - Progress bars in skills section
+  - Layout of entries in experience section
+  - Form in the contact section
  - FontAwesome
-  -- FontAwesome was used to input icons throughout the project. I used 8 different icons throughout the project.
+  - FontAwesome was used to input icons throughout the project. I used 8 different icons throughout the project.
  
 - Balsamiq
-  -- Used in the design process for wireframes.
+  - Used in the design process for wireframes.
 - Pxhere
-  -- Used for images and design inspiration.
+  - Used for images and design inspiration.
 - Google Fonts
-  -- Used for font implementation and inspiration.
+  - Used for font implementation and inspiration.
 - https://mycolor.space/
-  -- Used for pallet testing.
+  -Used for pallet testing.
  -GitPod
  -GitHub
 
 
-##Testing
-###Browsers
-tested and working consistently on the below browsers for desktop.
+## Testing
+### Browsers
+Tested and working consistently on the below browsers for desktop.
 - Google Chrome
 - Microsoft Edge 
 - Firefox
 
-##Credits
+## Deployment
+
+## Credits
+### Content
+All the content was written by myself.
+
+### Media
+Home Image: https://pxhere.com/en/photo/33
+Experience map image: https://pxhere.com/en/photo/1450907
+Interactive Front-end image: https://commons.wikimedia.org/wiki/File:JavaScript-logo.png
+Data Centric image: https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg
+Full-Stack Frameworks image: https://www.pexels.com/photo/assorted-map-pieces-2859169/
+CodeInstitute logo: https://www.facebook.com/Code.InstituteIRL/
+Zhejiang University logo: https://en.wikipedia.org/wiki/Zhejiang_University
+University College Dublin logo: https://en.wikipedia.org/wiki/University_College_Dublin
+
+
+### Acknowledgments
+The experience map was taken from code the following code written by Michael Mroz and edited to match my map and content.
+Inspiration for the skills section layout came from the resume section of CodeInstitures "Mini Project". This include the circlar headshot image, using the font aweson icons and the progress bars.
