@@ -488,7 +488,7 @@ strong {
     
 }
 
-#btt_logo, #portfolio-2-image, #portfolio-3-image, #portfolio-4-image{
+#btt_logo, .portfolio-2-image, .portfolio-3-image, .portfolio-4-image{
     width: 100%;
 }
 
