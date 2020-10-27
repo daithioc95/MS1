@@ -251,13 +251,7 @@ a {
   color: #28bbb2;
 }
 
-.centered {
-  position: absolute;
-  top: 50%; 
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
+
 
 .centered-y {
   position: absolute;
@@ -312,11 +306,12 @@ background: rgba(255,255,255, 0.5);
   width: 100%;
   height: 100%;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+    -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   overflow: auto;
   padding: 5px 5px 5px 5px;
 }
+
 .distribution-map .map-point:active, .distribution-map .map-point:focus {
   margin: 0;
   padding: 0;
@@ -344,7 +339,7 @@ background: rgba(255,255,255, 0.5);
   color: black;
 } */
 
-#thailand.map-point:active, #thailand.map-point:focus{height: 200px;
+#thailand.map-point:active, #thailand.map-point:focus{height: 220px;
 
 }
 #thailand.map-point{
@@ -452,6 +447,7 @@ strong {
 
 .experience-icon{
     margin-right: 10px;
+    margin-top: 10px;
 }
 
 .exp-des{
@@ -534,24 +530,15 @@ strong {
     margin-left: 0;
 }
 
-#portfolio-1-image{
-    /* content: url("https://github.com/daithioc95/MS1/blob/master/assets/images/Justlogo.gif?raw=true");
-    background-repeat: no-repeat, repeat; */
+.text-muted{
+    display: block;
+    margin-top: 5px;
 }
 
-/* #portfolio-1-entry{
-   clear: both;
-                    float: left;
-                    padding: 0; 
-}
+.span-h5, .span-h6{font-weight: 500;
+    color: inherit;}
 
-.portfolio-2-entry{
-    background-color: #28bbb2;
-    height: 260px;
-    width: 260px;
-} */
-/* 
-clear: both;
-                    width: 100%;
-                    float: left;
-                    padding: 0; */
+.span-h5{font-size: 20px;}
+
+.span-h6{font-size: 15px;}
+
