@@ -1,14 +1,18 @@
+/*------------ Fonts------------ */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 h1, h2, h3, h4{
   font-family: 'Roboto Slab', serif;
   color: #28bbb2;
+  text-align: center;
 }
 
-.nav-item{
-    text-align: center;
+p{
+    font-family: 'Roboto Slab', serif;
+  color: black;
+  text-align: center;
 }
-
 
 #welcome-img{
 width: 100%;
@@ -16,12 +20,19 @@ width: 100%;
   opacity: 0.5;
 }
 
-h2{text-align: center;}
-
-p{
-    font-family: 'Roboto Slab', serif;
-  text-align: center;
+h2#about-heading, h2#skills-heading, h2#experience-heading, h2#portfolio-heading, h2#contact-heading {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
+
+.span-h5, .span-h6{font-weight: 500;
+    color: inherit;}
+
+.span-h5{font-size: 20px;}
+
+.span-h6{font-size: 15px;}
+
+/*------------ Images------------ */
 
 #headshot{
   background: url("https://github.com/daithioc95/miniProject1/blob/master/assets/images/logo.jpg?raw=true") no-repeat center center;
@@ -30,19 +41,6 @@ p{
   border-radius: 50%;
   filter: grayscale(100%);
 }
-
-@keyframes hero-zoom{
-  from{
-    transform: scale(0.9)
-  }
-  to{
-    transform: scale(1)
-  }
-}
-
-/* div{border: 1px solid black;} */
-
-
 
 #circle-container{width: 300px;
   height: 300px;
@@ -53,6 +51,7 @@ p{
   border-radius: 50%;
   margin: 0 auto;}
 
+/* exp-logos */
 #ci-logo-circle-container{
 width: 120px;
   height: 120px;
@@ -118,19 +117,16 @@ width: 120px;
   background-size: contain;
 }
 
-/* h5.mb-1{
-    margin-top: 20px;
-} */
-
   #center-about{clear: both;
                     width: 100%;
                     float: left;
                     padding: 0;}
 
+
+/*------------ Footer------------ */
 #footer-social{
   text-align: center;
 }
-
 
 .list-inline.social-links{
   margin-bottom: 0;
@@ -157,12 +153,11 @@ width: 120px;
     margin: 20px 20px 15px 20px;
 } 
 
-
-
 .social-links li a i:hover{
     background:#28bbb2;
 }
 
+/*------------ Header------------ */
 #brand{
   color: #28bbb2;}
 
@@ -170,6 +165,21 @@ width: 120px;
     color: #28bbb2;
 }
 
+footer {
+    background-color: #f8f9fa;
+    padding: 25px;
+    margin-top: 30px;
+    border-top:     2px solid rgba(40,187,178,.75);
+}
+#header-menu{
+    border-bottom: 2px solid rgba(40,187,178,.75);
+}
+.nav-item{
+    text-align: center;
+}
+
+/*------------ Skills------------ */
+/* Progress bars */
 .progress-type{width: 73px;
     background-color: #28bbb2;
     color: white;
@@ -195,40 +205,12 @@ width: 120px;
     margin-top: 55px;
 }
 
-h2#about-heading, h2#skills-heading, h2#experience-heading, h2#portfolio-heading, h2#contact-heading {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-/* h2#experience-heading{
-    margin-left: 30px;
-} */
-footer {
-    background-color: #f8f9fa;
-    padding: 25px;
-    margin-top: 30px;
-    border-top:     2px solid rgba(40,187,178,.75)
-;
+.qualitative-skills{
+    margin-left: 0;
 }
 
-/* experience map */
-a {
-  -webkit-transition: color 0.25s ease-in-out;
-  transition: color 0.25s ease-in-out;
-  font-family: "Roboto Condensed", Helvetica, sans-serif;
-/*   text-transform: uppercase; */
-  text-decoration: none;
-  color: #28bbb2;
-}
-
-/* try bottom 2 to apply for desktop only? */
-.distribution-map > a:visited {
-  color: #28bbb2;
-}
-.distribution-map > li.active a, .distribution-map > a:hover, .distribution-map > a:active {
-  color: #28bbb2;
-}
-
-
+/*------------ Experience------------ */
+/* Desktop */
 
 .centered-y {
   position: absolute;
@@ -248,12 +230,14 @@ a {
   box-sizing: border-box;
   margin: 0 auto;
 }
+
 .distribution-map > img {
   width: 100%;
   position: relative;
   margin: 0;
   padding: 0;
 }
+
 .distribution-map .map-point {
   cursor: pointer;
   outline: none;
@@ -275,6 +259,7 @@ background: rgba(255,255,255, 0.5);
 /*   play with above to change bg for text */
   border: 3px solid #28bbb2;
 }
+
 .distribution-map .map-point .content {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
@@ -312,17 +297,14 @@ background: rgba(255,255,255, 0.5);
   transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out; 
   overflow: visible;
 }
-/* .distribution-map .map-point:active .content a:hover, .distribution-map .map-point:active .content a:active, .distribution-map .map-point:focus .content a:hover, .distribution-map .map-point:focus .content a:active {
-  color: black;
-} */
 
-#thailand.map-point:active, #thailand.map-point:focus{height: 220px;
-
+#thailand.map-point:active, #thailand.map-point:focus{
+    height: 220px;
 }
+
 #thailand.map-point{
    -webkit-transform: translate(-90%, -30%);
   transform: translate(-80%, -40%);
-
 }
 
 #china.map-point:active, #china.map-point:focus{height: 600px;
@@ -352,71 +334,14 @@ background: rgba(255,255,255, 0.5);
   transform: translate(-40%, -15%);
 }
 
-/* map additional */
-/* html {
-  background: #1a1a1a;
-  color: #28bbb2;
-  text-align: center;
-  font-family: "Roboto", Helvetica, sans-serif;
-} */
-
- .distribution-map { 
-  /* max-width: 1200px;
-  margin: 20px auto;
-  padding: 0 100px;
-  overflow-x: auto; */
-  font-weight: 100;
-} 
-
-.description {
-  max-width: 600px;
-  margin: 0 auto;
-  color: #28bbb2;
+.exp-media:hover {
+    color: #28bbb2;
+}
+.exp-media {
+    color: black;
 }
 
-.distribution-map div, .distribution-map img, .distribution-map footer {
-  position: relative;
-/*   box-sizing: border-box; */
-}
-
-/* h1, h2, h3, h4, h5, h6 {
-  margin: 0; 
-  font-family: "Roboto Condensed", Helvetica, sans-serif;
-font-weight: 300;
-} */
-
-/* h1 {
-  font-size: 36pt;
-}
-
-h2 {
-  font-size: 32px;
-}
-
-h3 {
-  font-size: 28px;
-}
-
-h4 {
-  font-size: 24px;
-}
-
-h5 {
-  font-size: 20px;
-}
-
-
-p{
-    font-family: 'Roboto Slab', serif;
-  text-align: center;
-  font-size: 16px;
-}
-
-strong {
-  font-weight: 900;
-  font-family: "Roboto Condensed", Helvetica, sans-serif;
-  color: #28bbb2;
-} */
+/* Mobile */
 
 #atlas{
     opacity: 0.7;
@@ -431,34 +356,26 @@ strong {
     border: none;
 }
 
-.exp-media:hover {
-    color: #28bbb2;
-}
-.exp-media {
-    color: black;
-}
-
 .mobile-exp{
     text-align: center;
 }
 
 .mob-ul-list-exp{
     padding-left: 10px;
-    /* color: #28bbb2; */
 }
 
 .mob-li-list-exp{
     margin-bottom: 25px;
 }
-/* margin left = 10  */
 
-/* .exp-media{list-style-type: none;} */
+.text-muted{
+    display: block;
+    margin-top: 5px;
+}
 
+/*------------ Portfolio------------ */
 .portfolio-image{
-    /* border: 2px solid black; */
-    /* padding-bottom: 100%; */
     position: relative;
-    
 }
 
 .btt_logo, .portfolio-2-image, .portfolio-3-image, .portfolio-4-image{
@@ -476,6 +393,7 @@ strong {
   z-index: 1;
 }
 
+/*------------ Contact------------ */
 #contact-form{
     text-align: center;
     margin: 0px auto;
@@ -486,36 +404,14 @@ strong {
     margin-top: 15px;
 }
 
-#header-menu{
-    border-bottom: 2px solid rgba(40,187,178,.75);
-
-}
-
-#FullStack-heading, #Communication-heading{
-    text-align: center;
+/*------------ Icons------------ */
+.experience-icon{
+    margin-bottom: 15px;
 }
 
 .edu-logo-heading{
     color:#28bbb2;
 }
 
-.experience-icon{
-    margin-bottom: 15px;
-}
 
-.qualitative-skills{
-    margin-left: 0;
-}
-
-.text-muted{
-    display: block;
-    margin-top: 5px;
-}
-
-.span-h5, .span-h6{font-weight: 500;
-    color: inherit;}
-
-.span-h5{font-size: 20px;}
-
-.span-h6{font-size: 15px;}
 
