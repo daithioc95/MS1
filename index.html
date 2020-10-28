@@ -15,8 +15,8 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <title>CodeDoc</title>
     </head>
-    <body>
-        
+    <body> 
+    <!-- Header section, includng navbar (Bootstrap) -->
     <header>
         <nav id="header-menu" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <a id="brand" class="navbar-brand" href="index.html">CodeDoc</a>
@@ -48,18 +48,18 @@
     <section>
         <!-- Welcome image -->
             <img src="https://get.pxhere.com/photo/laptop-desk-book-pencil-creative-advertising-brand-product-design-graphic-design-33.jpg" id="welcome-img" alt="desk and book welcome image">
- <!-- id ="welcome-image" class="img-fluid" -->
         <!-- About me -->
         <div id="About" class="container container-fluid">
             <div class="row">
                 <div class="col-lg-6">
+                    <!-- About me heading-->
                     <div class="row">
                         <div class="col-sm-12 col-lg-12">
                             <h2 id="about-heading">Who Am I?</h2>
                         </div>
                     </div>
-
-                    <div class="row"> <!--headshot image-->
+                    <!--headshot image-->
+                    <div class="row"> 
                         <div class="col-lg-12 col-sm-12" id ="center-about">
                             <div id="circle-container">
                             <div id = "headshot">
@@ -67,8 +67,8 @@
                             </div>
                         </div>
                     </div>
-
-        <div class="row"> <!--About Paragraph-->
+        <!--About Paragraph-->
+        <div class="row"> 
             <div class="col-12">
                 <p>
                     Masters graduate of innovation and entrepreneurship from Zhejiang University.<br>
@@ -79,45 +79,43 @@
                 </p>
             </div>
         </div>
-                </div>
+    </div>
 
-      <!-- Skills -->
-        <!-- should row go here? -->
-            <div class="col-lg-6">
-                <div class="row">
-                    <div class="col-12">
-                        <h2 id="skills-heading">Skills</h2>
+            <!-- Skills -->
+            <!-- Skills Heading -->
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 id="skills-heading">Skills</h2>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Qualitative -->
-                <div class="row container-fluid qualitative-skills">
-                            <div class="communication">
-                                <div class="col-12">
-                                    <h4 id="Communication-heading" class="three-resons-heading uppercase"><i class="far fa-comments"></i><br>Communication</h4>
-                                </div>
-                                <div class="col-12">
-                                        <p>
-                                            Industry business analyst experience has given me the experience to collect requirments and communicate effectively to deliver to you the exactly what you need.
-                                        </p>    
-                                </div>
-                            </div>
-                            <div class="full-stack">
+                    <!-- Skills Paragraph -->
+                    <div class="row container-fluid qualitative-skills">
+                        <div class="communication">
                             <div class="col-12">
-                                <h4 id="FullStack-heading" class="three-resons-heading uppercase"><i class="three-reasons-icon fa fa-gears" aria-hidden="true"></i><br>Full Stack</h4>
-                                    <div class="col-12">    
-                                        <p>
-                                            Studying MIS, completing a certificate in computer programming and Code institutes web development bootcamp has allowed me to become proficient in HTML, CSS, JavaScript, Python and Java.
-                                        </p>  
-                                    </div>  
-                                </div>
+                                <h4 id="Communication-heading" class="three-resons-heading uppercase"><i class="far fa-comments"></i><br>Communication</h4>
+                            </div>
+                            <div class="col-12">
+                                    <p>
+                                        Industry business analyst experience has given me the experience to collect requirments and communicate effectively to deliver to you the exactly what you need.
+                                    </p>    
                             </div>
                         </div>
-                    
-                    
-
-            
-                        <div class="row progress-section">
+                        <div class="full-stack">
+                        <div class="col-12">
+                            <h4 id="FullStack-heading" class="three-resons-heading uppercase"><i class="three-reasons-icon fa fa-gears" aria-hidden="true"></i><br>Full Stack</h4>
+                                <div class="col-12">    
+                                    <p>
+                                        Studying MIS, completing a certificate in computer programming and Code institutes web development bootcamp has allowed me to become proficient in HTML, CSS, JavaScript, Python and Java.
+                                    </p>  
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                        
+                    <!-- Skills Progress bars (Bootstrap)-->
+                    <div class="row progress-section">
                         <div class="col">
                             <div class="progress">
                                 <div class="progress-type tag bold flex">HTML</div>
@@ -127,7 +125,7 @@
                                 </div>
                                 <span class="progress-amount">80%</span>
                             </div>
-                             <div class="progress">
+                                <div class="progress">
                                 <div class="progress-type tag bold flex">CSS</div>
                                     <div class="progress-bar bg-info progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;"> 
                                         <span class="sr-only">80% Complete</span>
@@ -157,9 +155,9 @@
                             </div>
                         </div>
                     </div>
-                    </div>
                 </div>
             </div>
+        </div>
         <!-- experience map -->
         <div class="experience-section container-fluid">
             <div class="row justify-content-center">
@@ -172,10 +170,12 @@
                     <h5>Click locations for more information</h5>
                 </div>
             </div>
-                <!-- large screen experience section -->
+                <!-- Desktop experience section -->
                 <div class="desktop-exp row">
                     <div class="distribution-map col-12-lg d-none d-lg-block">
+                        <!-- World Map -->
                         <img id = "atlas" src="https://github.com/daithioc95/MS1/blob/master/assets/images/map-world-1450907-pxhere.com.jpg?raw=true" alt="" />
+                            <!-- Thailand Section -->
                             <button id = "thailand" class="map-point" style="top:45%;left:75%">
                                 <span class="content centered-y">
                                         <span class="exp-des list-group-item list-group-item-action flex-column align-items-start bg-transparent">
@@ -191,13 +191,11 @@
                                                 </span>
                                             
                                             <small class="text-muted">Bangkok, Thailand</small>
-                                            <small><span 
-   class="link exp-media" 
-   onclick="window.open('https://www.youtube.com/watch?v=NGyoeN1571c')"><i class="fas fa-photo-video fa-2x"></i></span><br></small>
+                                            <small><span class="link exp-media" onclick="window.open('https://www.youtube.com/watch?v=NGyoeN1571c')"><i class="fas fa-photo-video fa-2x"></i></span><br></small>
                                         </span>
                                     </span>
                             </button>
-
+                            <!-- Ireland Section -->
                             <button id="ireland" class="map-point" style="top:22%;left:43%">
                                <span class="content centered-y">
                                         <span class="exp-des list-group-item list-group-item-action flex-column align-items-start bg-transparent">
@@ -238,7 +236,7 @@
                                         </span>
                                     </span>
                             </button>
-
+                            <!-- USA Section -->
                             <button id = "usa" class="usa map-point" style="top:31%;left:15%">
                                 <span class="content centered-y">
                                         <span class="exp-des list-group-item list-group-item-action flex-column align-items-start bg-transparent">
@@ -256,51 +254,51 @@
                                         </span>
                                     </span>
                             </button>
-
-                                <button id = "china" class="map-point" style="top:36%;left:77%">
-                                    <span class="content centered-y">
-                                        <span class="exp-des list-group-item list-group-item-action flex-column align-items-start bg-transparent">
-                                            <span class="d-flex w-100 justify-content-between">
-                                                    <span class="span-h5 mb-1"><i class="experience-icon fas fa-graduation-cap fa-lg" aria-hidden="true"></i>Zhejiang University</span>
-                                                    <span class="span-h6 mb-1">M.Sc. in Management (Innovation, Entrepreneurship & Global Leadership)</span>
-                                                    <small class="text-muted">2019-2017</small>
-                                                </span>
-                                                    <span class="span-ul mb-1"> 
-                                                        <span class="span-li">Completed a 2-year masters Degree in one of the top universities in China, Zhejiang University.</span><br>
-                                                        <span class="span-li">The diverse nature of the course allows me to advance my cross cultural capabilities by working with peers from all over the world.</span><br>
-                                                        <span class="span-li">The course has given me the opportunity to study Chinese and gain creativity and entrepreneurial skills from highly experienced academics.</span><br>
-                                                    </span>
-                                                <small class="text-muted">Zhejiang, China</small>
-                                                <small><span class="link exp-media" onclick="window.open('https://www.youtube.com/watch?v=zv8zPtarTOk')"><i class="fas fa-photo-video fa-2x"></i></span><br></small>
+                            <!-- China Section -->
+                            <button id = "china" class="map-point" style="top:36%;left:77%">
+                                <span class="content centered-y">
+                                    <span class="exp-des list-group-item list-group-item-action flex-column align-items-start bg-transparent">
+                                        <span class="d-flex w-100 justify-content-between">
+                                                <span class="span-h5 mb-1"><i class="experience-icon fas fa-graduation-cap fa-lg" aria-hidden="true"></i>Zhejiang University</span>
+                                                <span class="span-h6 mb-1">M.Sc. in Management (Innovation, Entrepreneurship & Global Leadership)</span>
+                                                <small class="text-muted">2019-2017</small>
                                             </span>
-                                            <span class="exp-des list-group-item list-group-item-action flex-column align-items-start bg-transparent">
-                                            <span class="d-flex w-100 justify-content-between">
-                                                    <span class="span-h5 mb-1"><i class="experience-icon fas fa-briefcase fa-lg"></i>CoderBunker</span>
-                                                    <span class="span-h6 mb-1">Client Accounts Manager (Intern)</span>
-                                                    <small class="text-muted">May 2019 – July 2019</small>
+                                                <span class="span-ul mb-1"> 
+                                                    <span class="span-li">Completed a 2-year masters Degree in one of the top universities in China, Zhejiang University.</span><br>
+                                                    <span class="span-li">The diverse nature of the course allows me to advance my cross cultural capabilities by working with peers from all over the world.</span><br>
+                                                    <span class="span-li">The course has given me the opportunity to study Chinese and gain creativity and entrepreneurial skills from highly experienced academics.</span><br>
                                                 </span>
-                                                    <span class="span-ul mb-1"> 
-                                                        <span class="span-li">Liaised on client projects and acted as a bridge between the client and software engineers</span><br>
-                                                        <span class="span-li">Produced reporting and financial oversight for clients and employee payments</span><br>
-                                                        <span class="span-li">Customer relationship management and upselling, as well as researching and attracting new clients</span><br>
-                                                    </span>
-                                                <small class="text-muted">Shanghai, China</small>
-                                            </span>
-                                            <span class="exp-des list-group-item list-group-item-action flex-column align-items-start bg-transparent">
-                                            <span class="d-flex w-100 justify-content-between">
-                                                    <span class="span-h5 mb-1"><i class="experience-icon fas fa-briefcase fa-lg"></i>Golden Gate English</span>
-                                                    <span class="span-h6 mb-1">TEFL Teacher (Weekends)</span>
-                                                    <small class="text-muted">March 2018 – May 2019</small>
-                                                </span>
-                                                    <span class="span-ul mb-1"> 
-                                                        <span class="span-li">Managed scheduling of classes and availability of materials</span><br>
-                                                        <span class="span-li">Created and distributed marketing materials using Chinese social media (WeChat, QQ)</span><br>
-                                                        <span class="span-li">Prepared classes and taught English to students ranging from 4-14 years’ old</span><br>
-                                                    </span>
-                                                <small class="text-muted">Zhejiang, China</small>
-                                            </span>
+                                            <small class="text-muted">Zhejiang, China</small>
+                                            <small><span class="link exp-media" onclick="window.open('https://www.youtube.com/watch?v=zv8zPtarTOk')"><i class="fas fa-photo-video fa-2x"></i></span><br></small>
                                         </span>
-                                </button>
+                                        <span class="exp-des list-group-item list-group-item-action flex-column align-items-start bg-transparent">
+                                        <span class="d-flex w-100 justify-content-between">
+                                                <span class="span-h5 mb-1"><i class="experience-icon fas fa-briefcase fa-lg"></i>CoderBunker</span>
+                                                <span class="span-h6 mb-1">Client Accounts Manager (Intern)</span>
+                                                <small class="text-muted">May 2019 – July 2019</small>
+                                            </span>
+                                                <span class="span-ul mb-1"> 
+                                                    <span class="span-li">Liaised on client projects and acted as a bridge between the client and software engineers</span><br>
+                                                    <span class="span-li">Produced reporting and financial oversight for clients and employee payments</span><br>
+                                                    <span class="span-li">Customer relationship management and upselling, as well as researching and attracting new clients</span><br>
+                                                </span>
+                                            <small class="text-muted">Shanghai, China</small>
+                                        </span>
+                                        <span class="exp-des list-group-item list-group-item-action flex-column align-items-start bg-transparent">
+                                        <span class="d-flex w-100 justify-content-between">
+                                                <span class="span-h5 mb-1"><i class="experience-icon fas fa-briefcase fa-lg"></i>Golden Gate English</span>
+                                                <span class="span-h6 mb-1">TEFL Teacher (Weekends)</span>
+                                                <small class="text-muted">March 2018 – May 2019</small>
+                                            </span>
+                                                <span class="span-ul mb-1"> 
+                                                    <span class="span-li">Managed scheduling of classes and availability of materials</span><br>
+                                                    <span class="span-li">Created and distributed marketing materials using Chinese social media (WeChat, QQ)</span><br>
+                                                    <span class="span-li">Prepared classes and taught English to students ranging from 4-14 years’ old</span><br>
+                                                </span>
+                                            <small class="text-muted">Zhejiang, China</small>
+                                        </span>
+                                    </span>
+                            </button>
 
                     </div>
                 </div>
@@ -524,20 +522,19 @@
                             </div>
                         </div>
                     </div>
-        
                 </div>
+                <!-- Portfolio Section -->
                 <div class="portfolio-section container-fluid">
+                    <!-- Portfolio Section Heading -->
                     <div class="row justify-content-center">
                         <div class="col-lg-12 col-sm-12">
                             <h2 id="portfolio-heading">Portfolio</h2>
                         </div>
                     </div>
-
+                    <!-- Portfolio Entries -->
                     <div class="row portfolio-entries justify-content-center">
-
                         <div class="col-1 d-lg-none">
                         </div>
-                    
                         <div class="col-4 col-lg-2 portfolio-1-entry text-center">
                             <a href="#" class="btt_logo hvr-sweep-to-top">
                                 <div class="portfolio-image">
@@ -546,10 +543,8 @@
                             </a>
                             <h4>Budget Travel Tips</h4>
                         </div>
-
                         <div class="col-1">
                         </div>
-
                         <div class="col-4 col-lg-2 portfolio-1-entry text-center">
                             <a href="#" class="portfolio-2-image hvr-sweep-to-top">
                                 <div  class="portfolio-image">
@@ -558,10 +553,8 @@
                             </a>
                             <h4>Interactive Front-end (coming soon)</h4>
                         </div>
-
                         <div class="col-1">
                         </div>
-                    
                         <div class="col-4 col-lg-2 portfolio-1-entry text-center">
                             <a href="#" class="portfolio-3-image hvr-sweep-to-top">
                                 <div class="portfolio-image">
@@ -570,10 +563,8 @@
                             </a>
                             <h4>Data Centric (coming soon)</h4>
                         </div>
-
                         <div class="col-1">
                         </div>
-
                         <div class="col-4 col-lg-2 portfolio-1-entry text-center">
                             <a href="#" class="portfolio-4-image hvr-sweep-to-top">
                                 <div class="portfolio-image">
@@ -584,39 +575,34 @@
                         </div>
                     </div>
                 </div>
-
-<!-- contact section -->
+                <!-- Contact section (Bootstrap) -->
                 <div class="container">
                     <div class="row contact-me">
-                            <div class="col text-center">
-                                <h2 id="contact-heading"><i class="fas fa-dove"></i><br><br>Lets collaborate!</h2>
-                                
-                                
-                                <h5 class="text-center">Fill in the below with info on your project</h5>
-
-                            <div class="center-form">
-
-                                <form id="contact-form" action="mailto:daithioc@outlook.com" method="post" enctype="text/plain">
-
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
-                                    </div>
-                                    <div class="form-group">
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Please enter some details about your project"></textarea>
-                                    </div>
-                                    <button type="submit" class="btn btn-info">Submit</button>
-                                </form>
-                            </div>
-                            </div>
+                        <div class="col text-center">
+                            <!-- Contact heading -->
+                            <h2 id="contact-heading"><i class="fas fa-dove"></i><br><br>Lets collaborate!</h2>
+                            <h5 class="text-center">Fill in the below with info on your project</h5>
+                        <!-- Form Input -->
+                        <div class="center-form">
+                            <form id="contact-form" action="mailto:daithioc@outlook.com" method="post" enctype="text/plain">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Please enter some details about your project"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-info">Submit</button>
+                            </form>
+                        </div>
                         </div>
                     </div>
-
+                </div>
         </div>
     </section>
-
+    <!-- Footer -->
     <footer>
         <div id= "footer-social" class="col-12">
             <h5 class="uppercase general-sub">Social</h5>
@@ -645,7 +631,5 @@
                 </ul>
         </div>
     </footer>
-
-    </body>
-
+</body>
 </html>
