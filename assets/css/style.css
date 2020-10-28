@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 h1, h2, h3, h4{
-  /* font-family: Montserrat; */
   font-family: 'Roboto Slab', serif;
   color: #28bbb2;
 }
@@ -10,30 +9,8 @@ h1, h2, h3, h4{
     text-align: center;
 }
 
-#welcome-image{
-     height:850px;
-    width:100%;
-  /* border: 2px solid black; */
-    opacity: 0.5;
-   background: url("https://get.pxhere.com/photo/laptop-desk-book-pencil-creative-advertising-brand-product-design-graphic-design-33.jpg") no-repeat center;
-  background-size: contain;
-  animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
 
-@media only screen and (max-width: 767px) {
-   #welcome-image{
-    height:240px;
-    width:100%;
-  /* border: 2px solid black; */
-  opacity: 0.5;
-   background: url("https://get.pxhere.com/photo/laptop-desk-book-pencil-creative-advertising-brand-product-design-graphic-design-33.jpg") no-repeat center;
-  background-size: contain;
-  }
-}
-
-.welcome-img{
+#welcome-img{
 width: 100%;
   height: auto;
   opacity: 0.5;
@@ -358,7 +335,7 @@ background: rgba(255,255,255, 0.5);
  
 }
 
-#usa.map-point:active, #usa.map-point:focus{height: 200px;
+#usa.map-point:active, #usa.map-point:focus{height: 190px;
 
 }
 #usa.map-point{
@@ -367,7 +344,7 @@ background: rgba(255,255,255, 0.5);
 
 }
 
-#ireland.map-point:active, #ireland.map-point:focus{height: 500px;
+#ireland.map-point:active, #ireland.map-point:focus{height: 520px;
 
 }
 #ireland.map-point{
