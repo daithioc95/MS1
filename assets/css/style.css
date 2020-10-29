@@ -209,6 +209,18 @@ footer {
     margin-left: 0;
 }
 
+#CV > a{
+    color: black;
+    font-size: 20px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+#CV > a:hover{
+    color:#28bbb2;
+}
+
 /*------------ Experience------------ */
 /* Desktop */
 
