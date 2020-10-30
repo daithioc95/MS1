@@ -23,8 +23,8 @@ I began the design process by firstly identifying the sections neccessary to mee
 The next stage of the process was to brainstorm features. 
 In addition to the usual sections a portfolio website contains, I wanted to use an interactive map as a statement piece to showcase CSS skills and provide information on my international experience.
 I decided on this feature for large screens only as using a small screen would be difficult to select specific points on the map.
-When searching for potential maps on pxhere.com, I can accross a treasure map like map which cuited the feature aestetically.
-Using the lightest and darkest colors from the map, I input this to https://mycolor.space/ to generate a 3 color gradient and thats when I choose a tealish #5FFBF1 color as my primary site color.
+When searching for potential maps on pxhere.com, I can accross a treasure island like map which suited the feature aestetically.
+Using the lightest and darkest colors from the map, I input this to https://mycolor.space/ to generate a 3 color gradient and thats when I choose a teal-like #5FFBF1 as my primary site color.
 Other features I decided on were a progress bar for skills, I took inspiration for thing for the mini-project as it is a great was to visually portray my skills.
 When all my sections and additional features were decided upon, I moved onto creating wireframes for both the mobile and browser.
 I began this by using pen and paper and once a general, responsive idea formed, I created the below using balsamiq.
@@ -39,6 +39,7 @@ Breakdown of the website features by section
 ### Home
 Simple image which I found on pxhere.com.
 I choose this as the yellow glow from the wood matches the teal and the map feature image to appear later.
+Additionally, the laptop, phone, books etc. represent convey a design/service use case for the website. 
 
 ### About
 The About section contains a heading with a circle container and a circle headshop image.
@@ -47,6 +48,8 @@ Other features include font awesome icons.
 
 ### Experience
 For desktop, this seciton includes an interactive map which shows experience depending on location.
+When the location is selected, experience relvant to this location apeears in an expanded box.
+I have included icons with links to media and files to back up my experience.
 
 ### Porfolio
 
