@@ -12,9 +12,9 @@ This will be executed by designing a single paged long scroll website, with opti
 Implementing this design will keep the audience engaged and compliment the users stories by firstly feeding the user with “what” it is that do, secondly, showing projects to convey “How” I do it and finally, providing a means of contact should they want to collaborate.
 
 ### User Stories
-- As a recruiter/potential client, I was to see the web developers experience, so that I can see if this is relevant to the job/project requirements.
-- As a recruiter/potential client, I was to see the web developers’ skills, so that I can see if these skills match the job/project.
-- As a recruiter/potential client, I was to see the developer’s portfolio, so that I can see if his previous projects require capabilities relevant to this job/project.
+- As a recruiter/potential client, I want to see the web developers experience, so that I can see if this is relevant to the job/project requirements.
+- As a recruiter/potential client, I want to see the web developers’ skills, so that I can see if these skills match the job/project.
+- As a recruiter/potential client, I want to see the developer’s portfolio, so that I can see if his previous projects require capabilities relevant to this job/project.
 - As a recruiter/potential client, I want to easily find this information while appreciating the websites design, so that I can see that the developer is competent in front-end development.
 - As a recruiter/potential client, if interested I want to contact to the developer, so that I can see if he is available for work.
 
