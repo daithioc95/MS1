@@ -19,19 +19,19 @@ Implementing this design will keep the audience engaged and compliment the users
 - As a recruiter/potential client, if interested I want to contact to the developer, so that I can see if he is available for work.
 
 ### Design Process 
-I began the design process by firstly identifying the sections neccessary to meet the criteria of my use stories. This included the Home, About, Experience, Portfolio & Contact sections.
-The next stage of the process was to brainstorm features. 
-In addition to the usual sections a portfolio website contains, I wanted to use an interactive map as a statement piece to showcase CSS skills and provide information on my international experience.
-I decided on this feature for large screens only as using a small screen would be difficult to select specific points on the map.
-When searching for potential maps on pxhere.com, I can accross a treasure island like map which suited the feature aestetically.
-Using the lightest and darkest colors from the map, I input this to https://mycolor.space/ to generate a 3 color gradient and thats when I choose a teal-like #5FFBF1 as my primary site color.
-Other features I decided on were a progress bar for skills, I took inspiration for thing for the mini-project as it is a great was to visually portray my skills.
-When all my sections and additional features were decided upon, I moved onto creating wireframes for both the mobile and browser.
-I began this by using pen and paper and once a general, responsive idea formed, I created the below using balsamiq.
+-I began the design process by firstly identifying the sections neccessary to meet the criteria of my use stories. This included the Home, About, Experience, Portfolio & Contact sections.
+-The next stage of the process was to brainstorm features. 
+  -In addition to the usual sections a portfolio website contains, I wanted to use an interactive map as a statement piece to showcase CSS skills and provide information on my international experience.
+  -I decided on this feature for large screens only as using a small screen would be difficult to select specific points on the map.
+  -When searching for potential maps on pxhere.com, I can accross a treasure island like map which suited the feature aestetically.
+  -Using the lightest and darkest colors from the map, I input this to https://mycolor.space/ to generate a 3 color gradient and thats when I choose a teal-like #5FFBF1 as my primary site color.
+ -Other features I decided on were a progress bar for skills, I took inspiration for thing for the mini-project as it is a great was to visually portray my skills.
+-When all my sections and additional features were decided upon, I moved onto creating wireframes for both the mobile and browser.
+I began this by using pen and paper with the bootstrap grid system in mind and once a general, responsive idea formed, I created the below using balsamiq.
 
-See Desktop Wireframe [here](assets/MS1_Desktop.pdf)
+-See Desktop Wireframe [here](assets/MS1_Desktop.pdf)
 
-See Mobile Wireframe [here](assets/MS1_Mobile.pdf)
+-See Mobile Wireframe [here](assets/MS1_Mobile.pdf)
 
 ## Features
 Breakdown of the website features by section
@@ -51,9 +51,14 @@ For desktop, this seciton includes an interactive map which shows experience dep
 When the location is selected, experience relvant to this location apeears in an expanded box.
 I have included icons with links to media and files to back up my experience.
 
+For mobile, I included the same content, however to make up for lack of visuals compared to the desktop version, I included the organisations logos. 
+
 ### Porfolio
+For the portfolio seciton, I included a simple bootstrap grid design to show each project in a size-responsive manner.
 
 ### Contact
+The contact seciton is designed using a bootstrap form.
+An icon is used to transition into this section with relevant information prompted to contact the designer. 
 
 ## Technologies Used
 The main technologies used are as below.
@@ -83,8 +88,15 @@ The main technologies used are as below.
 - https://mycolor.space/
   -Used for pallet testing.
  -GitPod
+  - Used to create, commit and push the HTML and CSS changes for the website.
  -GitHub
-
+  - Used to deplot the website and store files and code.
+  
+ -Stackoverflow
+  - Used for problem solving to implement desired designs 
+ -W3Schools
+ -W3 Validator
+ 
 
 ## Testing
 ### Browsers
@@ -113,3 +125,5 @@ University College Dublin logo: https://en.wikipedia.org/wiki/University_College
 ### Acknowledgments
 The experience map was taken from code the following code written by Michael Mroz and edited to match my map and content.
 Inspiration for the skills section layout came from the resume section of CodeInstitures "Mini Project". This include the circlar headshot image, using the font aweson icons and the progress bars.
+Thanks to the Code Institute Tutors for helping me problem solve my experience section to satify the HTML W3 Validator.
+Thanks to my mentor, Mark Railton for guidence throughout the project.
