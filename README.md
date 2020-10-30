@@ -22,7 +22,7 @@ Implementing this design will keep the audience engaged and compliment the users
 I began the design process by firstly identifying the sections neccessary to meet the criteria of my use stories. This included the Home, About, Experience, Portfolio & Contact sections.
 The next stage of the process was to brainstorm features. 
 In addition to the usual sections a portfolio website contains, I wanted to use an interactive map as a statement piece to showcase CSS skills and provide information on my international experience.
-I decided on this feature for large screens only as using a small screen would be difficule to select specific points on the map.
+I decided on this feature for large screens only as using a small screen would be difficult to select specific points on the map.
 When searching for potential maps on pxhere.com, I can accross a treasure map like map which cuited the feature aestetically.
 Using the lightest and darkest colors from the map, I input this to https://mycolor.space/ to generate a 3 color gradient and thats when I choose a tealish #5FFBF1 color as my primary site color.
 Other features I decided on were a progress bar for skills, I took inspiration for thing for the mini-project as it is a great was to visually portray my skills.
