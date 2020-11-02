@@ -58,16 +58,17 @@ For the portfolio seciton, I included a simple bootstrap grid design to show eac
 
 ### Contact
 The contact seciton is designed using a bootstrap form.
-An icon is used to transition into this section with relevant information prompted to contact the designer. 
+An icon is used to transition into this section with relevant information prompted to contact the web developer. 
 
 ### Future Features
 Please see below list of features which I intend to implement at a later stage.
 - Media carosel: When an icon is selected in the desktop media section, I plan to implement a media carosel/slideshow for videos/images corresponding the the entry. Currently I have a link to youtube for each entry.
-- Background: I plan to implement subtle background styles for each section to aid the transition. I currently stayed with a white background but at a future stage I believe the website can benefit with some variety.
+- Background: I plan to implement subtle background styles for each section to aid the transition. For this version, I stayed with a white background but at a future stage I believe the website can benefit with some variety.
 - Responsity: I plan to improve the general responsity of the site once I have a greater JavaScript understanding, this includes the below.
   - Ensuring the Navbar reappears on scroll
-  - Allowing progress bars to interactively fill
+  - Allowing progress bars to interactively appear
   - When desktop experience is landed on, map points appear one by one
+- Logo: The brand logo is currently represented by a teal CodeDoc in the top left hand corner. I plan to design a more unique logo using Adobe Illustrator in the future.
 
 ## Technologies Used
 The main technologies used are as below.
@@ -100,10 +101,11 @@ The main technologies used are as below.
   - Used to create, commit and push the HTML and CSS changes for the website.
  -GitHub
   - Used to deplot the website and store files and code.
-  
  -Stackoverflow
   - Used for problem solving to implement desired designs 
  -W3Schools
+  - Used to gather a theoretuical knowledge of elements.
+  - 
  -W3 Validator
  
 
