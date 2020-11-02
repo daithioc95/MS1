@@ -6,7 +6,7 @@ The website will both a vehicle for my brand and a means of contact for interest
 
 ## UX
 
-The website will contain a simple design to ensure the primary function of providing information to the audience included. 
+The website will contain a simple design to ensure the primary function of providing information to the audience on devices of all sizes.
 To complement this, an interactive, easy on the eye design will be implemented.
 This will be executed by designing a single paged long scroll website, with options to navigate to any particular sections using the Menu bar.
 Implementing this design will keep the audience engaged and compliment the users stories by firstly feeding the user with “what” it is that do, secondly, showing projects to convey “How” I do it and finally, providing a means of contact should they want to collaborate.
@@ -81,11 +81,11 @@ The main technologies used are as below.
   Used for the map feature, which required alot of trial and error. CodePen was great to instantly see how my changes effected positioning.
 - Bootstrap
   Used throughout the website to easily implement consitent designs, such as the below
-  - Navbar
-  - Grid System
-  - Progress bars in skills section
-  - Layout of entries in experience section
-  - Form in the contact section
+  - Navbar: https://getbootstrap.com/docs/4.0/components/navbar/
+  - Grid System: https://getbootstrap.com/docs/4.0/layout/grid/
+  - Progress bars in skills section: https://getbootstrap.com/docs/4.0/components/progress/
+  - Layout of entries in experience section: https://getbootstrap.com/docs/4.0/components/list-group/#custom-content
+  - Form in the contact section: https://getbootstrap.com/docs/4.0/components/forms/
  - FontAwesome
   - FontAwesome was used to input icons throughout the project. I used 8 different icons throughout the project.
  
@@ -102,12 +102,13 @@ The main technologies used are as below.
  -GitHub
   - Used to deplot the website and store files and code.
  -Stackoverflow
-  - Used for problem solving to implement desired designs 
+  - Used for problem solving to implement desired designs.
+  - Used to gain better understanding of how I should approach the implementation of elements.
  -W3Schools
-  - Used to gather a theoretuical knowledge of elements.
-  - 
+  - Used to gather a theoretuical knowledge of elements and effects (in particular <button> element)
+    https://www.w3schools.com/w3css/w3css_buttons.asp
  -W3 Validator
- 
+  - Used throghout the project to ensure I was following best practices with my code.
 
 ## Testing
 ### Browsers
@@ -117,6 +118,9 @@ Tested and working consistently on the below browsers for desktop.
 - Firefox
 
 ## Deployment
+This project was created using Gitpod for commit and push actions.
+This project was deployed using GitHub pages at https://daithioc95.github.io/MS1
+
 
 ## Credits
 ### Content
@@ -138,3 +142,4 @@ The experience map was taken from code the following code written by Michael Mro
 Inspiration for elements in the about and skills section layout came from the resume section of CodeInstitutes "Mini Project". This include the circlar headshot image, using the font aweson icons and the progress bars.
 Thanks to the Code Institute Tutors for helping me problem solving, in particularly regarding the my experience section to satify the HTML W3 Validator.
 Thanks to my mentor, Mark Railton for guidence throughout the project.
+Thanks to the Code Institute Slack channel for providing me with a wealth of information on each aspect of the project.
