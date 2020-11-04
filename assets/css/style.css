@@ -417,6 +417,11 @@ background: rgba(255,255,255, 0.5);
   z-index: 1;
 }
 
+@media only screen and (max-width: 600px) {
+.portfolio-entry{
+    padding: 40px;
+}}
+
 /*------------ Contact------------ */
 #contact-form{
     text-align: center;
