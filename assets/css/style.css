@@ -419,7 +419,7 @@ background: rgba(255,255,255, 0.5);
 
 @media only screen and (max-width: 600px) {
 .portfolio-entry{
-    padding: 40px;
+    margin: 0px 50px 25px 50px;
 }}
 
 /*------------ Contact------------ */
