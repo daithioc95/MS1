@@ -404,6 +404,7 @@ background: rgba(255,255,255, 0.5);
 
 .btt_logo, .portfolio-2-image, .portfolio-3-image, .portfolio-4-image{
     width: 100%;
+    margin-bottom: 8px;
 }
 
 .btt_logo{
