@@ -269,6 +269,10 @@ footer {
   -webkit-transition-delay: 0.25s, 0.25s, 0.25s, 0.25s;
   -webkit-transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
   transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s; 
+  transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 /*   background: rgb(255,193,7, 0.9); */
 background: rgba(255,255,255, 0.5); 
 /*   play with above to change bg for text */
@@ -289,7 +293,8 @@ background: rgba(255,255,255, 0.5);
   padding: 5px 5px 5px 5px;
 }
 
-.distribution-map .map-point:active, .distribution-map .map-point:focus {
+.distribution-map .map-point:active, .distribution-map .map-point:focus {           
+  background: rgba(255,255,255, 0.5); 
   margin: 0;
   padding: 0;
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
@@ -363,6 +368,10 @@ background: rgba(255,255,255, 0.5);
 
 .above-exp-media{
     margin-bottom: 10px;
+}
+
+.map-point:hover{
+    background: #28bbb2;
 }
 /* Mobile */
 
