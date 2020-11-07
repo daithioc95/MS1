@@ -36,6 +36,9 @@ I began this by using pen and paper with the bootstrap grid system in mind and o
 ## Features
 Breakdown of the website features by section
 
+### Navbar
+I created the Navbar using Bootstrap and editing the color to suit my websites design.
+
 ### Home
 Simple image which I found on pxhere.com.
 I choose this as the yellow glow from the wood matches the teal and the map feature image to appear later.
@@ -59,6 +62,9 @@ For the portfolio seciton, I included a simple bootstrap grid design to show eac
 ### Contact
 The contact seciton is designed using a bootstrap form.
 An icon is used to transition into this section with relevant information prompted to contact the web developer. 
+
+### Footer
+I included a simple footer design, I used font awesome icons to represent each link. 
 
 ### Future Features
 Please see below list of features which I intend to implement at a later stage.
@@ -141,6 +147,7 @@ University College Dublin logo: https://en.wikipedia.org/wiki/University_College
 ### Acknowledgments
 The experience map was taken from code the following code written by Michael Mroz and edited to match my map and content.
 Inspiration for elements in the about and skills section layout came from the resume section of CodeInstitutes "Mini Project". This include the using the font aweson icons and the progress bars.
+Inspiration to use fontawesome icons with hover glow in the footer section was also from the CodeInstitutes "Mini Project".
 Inspiration for the circular headshot image in the about section came from the the HTML/CSS Project - love running section of the CSS Fundamentals module.
 Thanks to the Code Institute Tutors for helping me problem solving, in particularly regarding the my experience section to satify the HTML W3 Validator.
 Thanks to my mentor, Mark Railton for guidence throughout the project.
