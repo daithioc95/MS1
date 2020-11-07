@@ -128,6 +128,9 @@ Tested and working consistently on the below browsers for desktop.
 This project was created using Gitpod for commit and push actions.
 This project was deployed using GitHub pages at https://daithioc95.github.io/MS1
 
+## Known Bugs and Fixs
+- Progress Bars
+  - When rendered to mobile size, the progress bars for 70% and 80% render to an almoast identicle size. This is a known bug which I plan to correct later on.
 
 ## Credits
 ### Content
