@@ -86,6 +86,8 @@ The main technologies used are as below.
   - Progress bars in skills section: https://getbootstrap.com/docs/4.0/components/progress/
   - Layout of entries in experience section: https://getbootstrap.com/docs/4.0/components/list-group/#custom-content
   - Form in the contact section: https://getbootstrap.com/docs/4.0/components/forms/
+ - Balsamiq
+  - Used in the design process for wireframes.
  - FontAwesome
   - FontAwesome was used to input icons throughout the project. I used 8 different icons throughout the project.
  
