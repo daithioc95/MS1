@@ -69,6 +69,7 @@ Please see below list of features which I intend to implement at a later stage.
   - Allowing progress bars to interactively appear
   - When desktop experience is landed on, map points appear one by one
 - Logo: The brand logo is currently represented by a teal CodeDoc in the top left hand corner. I plan to design a more unique logo using Adobe Illustrator in the future.
+- Language: I intent on translating the website to mandarin chinese to tailor for the chinese market. This feature will be an optional change which the user can action using a button.
 
 ## Technologies Used
 The main technologies used are as below.
@@ -139,7 +140,8 @@ University College Dublin logo: https://en.wikipedia.org/wiki/University_College
 
 ### Acknowledgments
 The experience map was taken from code the following code written by Michael Mroz and edited to match my map and content.
-Inspiration for elements in the about and skills section layout came from the resume section of CodeInstitutes "Mini Project". This include the circlar headshot image, using the font aweson icons and the progress bars.
+Inspiration for elements in the about and skills section layout came from the resume section of CodeInstitutes "Mini Project". This include the using the font aweson icons and the progress bars.
+Inspiration for the circular headshot image in the about section came from the the HTML/CSS Project - love running section of the CSS Fundamentals module.
 Thanks to the Code Institute Tutors for helping me problem solving, in particularly regarding the my experience section to satify the HTML W3 Validator.
 Thanks to my mentor, Mark Railton for guidence throughout the project.
 Thanks to the Code Institute Slack channel for providing me with a wealth of information on each aspect of the project.
