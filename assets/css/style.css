@@ -1,401 +1,504 @@
 /*------------ Fonts------------ */
- @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
- h1,h2,h3,h4{
-     font-family: 'Roboto Slab', serif;
-     color: #28bbb2;
-     text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Roboto Slab', serif;
+    color: #28bbb2;
+    text-align: center;
 }
- p{
-     font-family: "Segoe UI", serif;
-     color: black;
-     text-align: center;
+
+p {
+    font-family: "Segoe UI", serif;
+    color: black;
+    text-align: center;
 }
- #welcome-img{
-     width: 100%;
-     height: auto;
-     opacity: 0.5;
+
+#welcome-img {
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
 }
- h2#about-heading, h2#skills-heading, h2#experience-heading, h2#portfolio-heading, h2#contact-heading {
-     margin-top: 50px;
-     margin-bottom: 50px;
+
+h2#about-heading,
+h2#skills-heading,
+h2#experience-heading,
+h2#portfolio-heading,
+h2#contact-heading {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
- .span-h5, .span-h6{
+
+.span-h5,
+.span-h6 {
     font-weight: 500;
-     color: inherit;
+    color: inherit;
 }
- .span-h5{
+
+.span-h5 {
     font-size: 20px;
 }
- .span-h6{
+
+.span-h6 {
     font-size: 15px;
 }
+
+
 /*------------ Images------------ */
- #headshot{
-     background: url("https://github.com/daithioc95/miniProject1/blob/master/assets/images/logo.jpg?raw=true") no-repeat center center;
-     height: 100%;
-     background-size: cover;
-     border-radius: 50%;
-     filter: grayscale(100%);
+
+#headshot {
+    background: url("https://github.com/daithioc95/miniProject1/blob/master/assets/images/logo.jpg?raw=true") no-repeat center center;
+    height: 100%;
+    background-size: cover;
+    border-radius: 50%;
+    filter: grayscale(100%);
 }
- #circle-container{
+
+#circle-container {
     width: 300px;
-     height: 300px;
-     padding: 30px;
-     border-style: solid;
-     border-color: #28bbb270;
-     border-width: 1px;
-     border-radius: 50%;
-     margin: 0 auto;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #28bbb270;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
 }
+
+
 /* exp-logos */
- #ci-logo-circle-container{
-     width: 120px;
-     height: 120px;
-     padding: 0px;
-     margin: 0 auto;
-     background: url("https://github.com/daithioc95/MS1/blob/d83c00c17613472e37035f3c80d09a7c9dde36d6/assets/images/logos/codeinstitute_logo.png?raw=true") no-repeat center center;
-     background-size: cover;
-     border-radius: 50%;
+
+#ci-logo-circle-container {
+    width: 120px;
+    height: 120px;
+    padding: 0px;
+    margin: 0 auto;
+    background: url("https://github.com/daithioc95/MS1/blob/d83c00c17613472e37035f3c80d09a7c9dde36d6/assets/images/logos/codeinstitute_logo.png?raw=true") no-repeat center center;
+    background-size: cover;
+    border-radius: 50%;
 }
- #zheda-logo-circle-container{
-     width: 120px;
-     height: 120px;
-     padding: 0px;
-     margin: 0 auto;
-     background: url("https://github.com/daithioc95/MS1/blob/8c6c5d1bf5b5cc7b7edddcd8f3ed60767ee06317/assets/images/logos/Zhejiang_University_Logo.png?raw=true") no-repeat center center;
-     background-size: cover;
-     border-radius: 50%;
+
+#zheda-logo-circle-container {
+    width: 120px;
+    height: 120px;
+    padding: 0px;
+    margin: 0 auto;
+    background: url("https://github.com/daithioc95/MS1/blob/8c6c5d1bf5b5cc7b7edddcd8f3ed60767ee06317/assets/images/logos/Zhejiang_University_Logo.png?raw=true") no-repeat center center;
+    background-size: cover;
+    border-radius: 50%;
 }
- #ucd-logo-circle-container{
-     width: 120px;
-     height: 120px;
-     padding: 0px;
-     margin: 0 auto;
-     background: url("https://github.com/daithioc95/MS1/blob/master/assets/images/logos/UCD_logo.png?raw=true") no-repeat center center;
-     background-size: contain;
+
+#ucd-logo-circle-container {
+    width: 120px;
+    height: 120px;
+    padding: 0px;
+    margin: 0 auto;
+    background: url("https://github.com/daithioc95/MS1/blob/master/assets/images/logos/UCD_logo.png?raw=true") no-repeat center center;
+    background-size: contain;
 }
- #ppb-logo-circle-container{
-     width: 120px;
-     height: 120px;
-     padding: 0px;
-     margin: 0 auto;
-     background: url("https://github.com/daithioc95/MS1/blob/c5c72cd462025c7e859d20acf8eee487a3075d2f/assets/images/logos/PPB_logo.jpg?raw=true") no-repeat center center;
-     background-size: contain;
+
+#ppb-logo-circle-container {
+    width: 120px;
+    height: 120px;
+    padding: 0px;
+    margin: 0 auto;
+    background: url("https://github.com/daithioc95/MS1/blob/c5c72cd462025c7e859d20acf8eee487a3075d2f/assets/images/logos/PPB_logo.jpg?raw=true") no-repeat center center;
+    background-size: contain;
 }
- #cb-logo-circle-container{
-     width: 120px;
-     height: 120px;
-     padding: 0px;
-     margin: 0 auto;
-     background: url("https://github.com/daithioc95/MS1/blob/c5c72cd462025c7e859d20acf8eee487a3075d2f/assets/images/logos/coderbunker-cropped.png?raw=true") no-repeat center center;
-     background-size: contain;
+
+#cb-logo-circle-container {
+    width: 120px;
+    height: 120px;
+    padding: 0px;
+    margin: 0 auto;
+    background: url("https://github.com/daithioc95/MS1/blob/c5c72cd462025c7e859d20acf8eee487a3075d2f/assets/images/logos/coderbunker-cropped.png?raw=true") no-repeat center center;
+    background-size: contain;
 }
- #gge-logo-circle-container{
-     width: 120px;
-     height: 120px;
-     padding: 0px;
-     margin: 0 auto;
-     background: url("https://github.com/daithioc95/MS1/blob/cb71b41efaace90d7b2ac3b8787317c2b2d8a636/assets/images/logos/gge_logo.png?raw=true") no-repeat center center;
-     background-size: contain;
+
+#gge-logo-circle-container {
+    width: 120px;
+    height: 120px;
+    padding: 0px;
+    margin: 0 auto;
+    background: url("https://github.com/daithioc95/MS1/blob/cb71b41efaace90d7b2ac3b8787317c2b2d8a636/assets/images/logos/gge_logo.png?raw=true") no-repeat center center;
+    background-size: contain;
 }
- #yosemite-logo-circle-container{
-     width: 120px;
-     height: 120px;
-     padding: 0px;
-     margin: 0 auto;
-     background: url("https://github.com/daithioc95/MS1/blob/cb71b41efaace90d7b2ac3b8787317c2b2d8a636/assets/images/logos/yosemite_logo.jpg?raw=true") no-repeat center center;
-     background-size: contain;
+
+#yosemite-logo-circle-container {
+    width: 120px;
+    height: 120px;
+    padding: 0px;
+    margin: 0 auto;
+    background: url("https://github.com/daithioc95/MS1/blob/cb71b41efaace90d7b2ac3b8787317c2b2d8a636/assets/images/logos/yosemite_logo.jpg?raw=true") no-repeat center center;
+    background-size: contain;
 }
- #center-about{
+
+#center-about {
     clear: both;
-     width: 100%;
-     float: left;
-     padding: 0;
+    width: 100%;
+    float: left;
+    padding: 0;
 }
+
+
 /*------------ Footer------------ */
- #footer-social{
-     text-align: center;
-}
- .list-inline.social-links{
-     margin-bottom: 0;
-}
- .social-links{
-     padding-bottom: 15px;
-}
- .social-links li a i{
-     width: 40px;
-     height: 40px;
-     padding: 12px 0;
-     border-radius: 50%;
-     font-size: 20px;
-     line-height: 15px;
-     text-align: center;
-     color: #fafafa;
-     background : #8f8f8f;
-     transition: all 0.35s ease-in-out;
-     -moz-transition: all 0.35s ease-in-out;
-     -webkit-transition: all 0.35s ease-in-out;
-     -o-transition: all 0.35s ease-in-out;
-     margin: 20px 20px 15px 20px;
-}
- .social-links li a i:hover{
-     background:#28bbb2;
-}
-/*------------ Header------------ */
- #brand{
-     color: #28bbb2;
-}
- .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-     color: #28bbb2;
-}
- footer {
-     background-color: #f8f9fa;
-     padding: 25px;
-     margin-top: 30px;
-     border-top: 2px solid rgba(40,187,178,.75);
-}
- #header-menu{
-     border-bottom: 2px solid rgba(40,187,178,.75);
-}
- .nav-item{
-     text-align: center;
-}
-/*------------ Skills------------ */
-/* Progress bars */
- .progress-type{
-    width: 73px;
-     background-color: #28bbb2;
-     color: white;
-     height: 100%;
-     text-align: center;
-     padding: 5px 10px 5px 10px;
-     font-weight: 500
-}
- .progress-amount{
+
+#footer-social {
     text-align: center;
-     padding: 5px;
-     font-weight: 500
 }
- .progress {
-     margin-bottom: 20px;
-     height: auto;
+
+.list-inline.social-links {
+    margin-bottom: 0;
 }
- .progress-amount{
-     margin-left: auto;
+
+.social-links {
+    padding-bottom: 15px;
 }
- .progress-section{
-     margin-top: 55px;
+
+.social-links li a i {
+    width: 40px;
+    height: 40px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 15px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    margin: 20px 20px 15px 20px;
 }
- .qualitative-skills{
-     margin-left: 0;
+
+.social-links li a i:hover {
+    background: #28bbb2;
 }
- #CV > a{
-     color: #8f8f8f;
-     font-size: 20px;
-     transition: all 0.35s ease-in-out;
-     -moz-transition: all 0.35s ease-in-out;
-     -webkit-transition: all 0.35s ease-in-out;
-     -o-transition: all 0.35s ease-in-out;
+
+
+/*------------ Header------------ */
+
+#brand {
+    color: #28bbb2;
 }
- #CV > a:hover{
-     color:#28bbb2;
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #28bbb2;
 }
+
+footer {
+    background-color: #f8f9fa;
+    padding: 25px;
+    margin-top: 30px;
+    border-top: 2px solid rgba(40, 187, 178, .75);
+}
+
+#header-menu {
+    border-bottom: 2px solid rgba(40, 187, 178, .75);
+}
+
+.nav-item {
+    text-align: center;
+}
+
+
+/*------------ Skills------------ */
+
+
+/* Progress bars */
+
+.progress-type {
+    width: 73px;
+    background-color: #28bbb2;
+    color: white;
+    height: 100%;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    font-weight: 500
+}
+
+.progress-amount {
+    text-align: center;
+    padding: 5px;
+    font-weight: 500
+}
+
+.progress {
+    margin-bottom: 20px;
+    height: auto;
+}
+
+.progress-amount {
+    margin-left: auto;
+}
+
+.progress-section {
+    margin-top: 55px;
+}
+
+.qualitative-skills {
+    margin-left: 0;
+}
+
+#CV>a {
+    color: #8f8f8f;
+    font-size: 20px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+#CV>a:hover {
+    color: #28bbb2;
+}
+
+
 /*------------ Experience------------ */
+
+
 /* Desktop */
- .centered-y {
-     position: absolute;
-     width: 100%;
-     top: 50%;
-    /* align top above with line 124 */
-     -webkit-transform: translateY(-50%);
-     transform: translateY(-50%);
-    /* above 3 controls position inside box */
+
+.centered-y {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
- .distribution-map {
-     position: relative;
-     width: 100%;
-     padding: 20px;
-    /* changed padding from 20px */
-     box-sizing: border-box;
-     margin: 0 auto;
+
+.distribution-map {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
- .distribution-map > img {
-     width: 100%;
-     position: relative;
-     margin: 0;
-     padding: 0;
+
+.distribution-map>img {
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
 }
- .distribution-map .map-point {
-     cursor: pointer;
-     outline: none;
-     z-index: 0;
-     position: absolute;
-     width: 40px;
-     height: 40px;
-     border-radius: 20px;
-     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-     opacity: 0.8;
-     -moz-transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
-     -o-transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
-     -webkit-transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out, z-index 0.25s ease-in-out;
-     -webkit-transition-delay: 0.25s, 0.25s, 0.25s, 0.25s;
-     -webkit-transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
-     transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
-     transition: all 0.35s ease-in-out;
-     -moz-transition: all 0.35s ease-in-out;
-     -webkit-transition: all 0.35s ease-in-out;
-     -o-transition: all 0.35s ease-in-out;
-    /* background: rgb(255,193,7, 0.9);
-     */
-     background: rgba(255,255,255, 0.5);
-    /* play with above to change bg for text */
-     border: 3px solid #28bbb2;
+
+.distribution-map .map-point {
+    cursor: pointer;
+    outline: none;
+    z-index: 0;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+    opacity: 0.8;
+    -moz-transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
+    -o-transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
+    -webkit-transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out, z-index 0.25s ease-in-out;
+    -webkit-transition-delay: 0.25s, 0.25s, 0.25s, 0.25s;
+    -webkit-transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
+    transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    background: rgba(255, 255, 255, 0.5);
+    border: 3px solid #28bbb2;
 }
- .distribution-map .map-point .content {
-     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-     opacity: 0;
-     -webkit-transition: opacity 0.25s ease-in-out;
-     transition: opacity 0.25s ease-in-out;
-     width: 100%;
-     height: 100%;
-     left: 50%;
-     -webkit-transform: translate(-50%, -50%);
-     transform: translate(-50%, -50%);
-     overflow: auto;
-     padding: 5px 5px 5px 5px;
+
+.distribution-map .map-point .content {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    -webkit-transition: opacity 0.25s ease-in-out;
+    transition: opacity 0.25s ease-in-out;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    overflow: auto;
+    padding: 5px 5px 5px 5px;
 }
- .distribution-map .map-point:active, .distribution-map .map-point:focus {
-     background: rgba(255,255,255, 0.5);
-     margin: 0;
-     padding: 0;
-     filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
-     opacity: 1;
-     width: 800px;
-    /* controls expanded box width */
-     height: 500px;
-    /* controls expanded box height */
-     color: black;
-     z-index: 1;
-     -webkit-transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out;
-     transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out;
+
+.distribution-map .map-point:active,
+.distribution-map .map-point:focus {
+    background: rgba(255, 255, 255, 0.5);
+    margin: 0;
+    padding: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+    opacity: 1;
+    width: 800px;
+    color: black;
+    z-index: 1;
+    -webkit-transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out;
+    transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out;
 }
- .distribution-map .map-point:active .content, .distribution-map .map-point:focus .content {
-     filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
-     opacity: 1;
-     -moz-transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
-     -o-transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
-     -webkit-transition: opacity 0.25s ease-in-out, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
-     -webkit-transition-delay: 0.25s, 0s, 0s;
-     -webkit-transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
-     transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
-     overflow: visible;
+
+.distribution-map .map-point:active .content,
+.distribution-map .map-point:focus .content {
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+    opacity: 1;
+    -moz-transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
+    -o-transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
+    -webkit-transition: opacity 0.25s ease-in-out, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
+    -webkit-transition-delay: 0.25s, 0s, 0s;
+    -webkit-transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
+    transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
+    overflow: visible;
 }
- #thailand.map-point:active, #thailand.map-point:focus{
-     height: 220px;
+
+#thailand.map-point:active,
+#thailand.map-point:focus {
+    height: 230px;
 }
- #thailand.map-point{
-     -webkit-transform: translate(-90%, -30%);
-     transform: translate(-80%, -40%);
+
+#thailand.map-point {
+    -webkit-transform: translate(-90%, -30%);
+    transform: translate(-80%, -40%);
 }
- #china.map-point:active, #china.map-point:focus{
-    height: 600px;
-     width: 900px;
+
+#china.map-point:active,
+#china.map-point:focus {
+    height: 610px;
+    width: 900px;
 }
- #china.map-point{
-     -webkit-transform: translate(-90%, -30%);
-     transform: translate(-80%, -30%);
+
+#china.map-point {
+    -webkit-transform: translate(-90%, -30%);
+    transform: translate(-80%, -30%);
 }
- #usa.map-point:active, #usa.map-point:focus{
+
+#usa.map-point:active,
+#usa.map-point:focus {
     height: 190px;
 }
- #usa.map-point{
-     -webkit-transform: translate(-10%, -10%);
-     transform: translate(-10%, -10%);
+
+#usa.map-point {
+    -webkit-transform: translate(-10%, -10%);
+    transform: translate(-10%, -10%);
 }
- #ireland.map-point:active, #ireland.map-point:focus{
-    height: 520px;
+
+#ireland.map-point:active,
+#ireland.map-point:focus {
+    height: 530px;
 }
- #ireland.map-point{
-     -webkit-transform: translate(-90%, -30%);
-     transform: translate(-40%, -15%);
+
+#ireland.map-point {
+    -webkit-transform: translate(-90%, -30%);
+    transform: translate(-40%, -15%);
 }
- .exp-media:hover {
-     color: #28bbb2;
+
+.exp-media:hover {
+    color: #28bbb2;
 }
- .exp-media {
-     margin-top: 10px;
-     color: black;
-     transition: all 0.35s ease-in-out;
-     -moz-transition: all 0.35s ease-in-out;
-     -webkit-transition: all 0.35s ease-in-out;
-     -o-transition: all 0.35s ease-in-out;
+
+.exp-media {
+    margin-top: 10px;
+    color: black;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
- .above-exp-media{
-     margin-bottom: 10px;
+
+.above-exp-media {
+    margin-bottom: 10px;
 }
- .map-point:hover{
-     background: #28bbb2;
+
+.map-point:hover {
+    background: #28bbb2;
 }
+
+
 /* Mobile */
- #atlas{
-     opacity: 0.7;
+
+#atlas {
+    opacity: 0.7;
 }
- .experience-icon{
-     margin-right: 10px;
-     margin-top: 10px;
+
+.experience-icon {
+    margin-right: 10px;
+    margin-top: 10px;
 }
- .exp-des{
-     border: none;
+
+.exp-des {
+    border: none;
 }
- .mobile-exp{
-     text-align: center;
-     display: inline;
+
+.mobile-exp {
+    text-align: center;
+    display: inline;
 }
- .mob-ul-list-exp{
-     padding-left: 10px;
+
+.mob-ul-list-exp {
+    padding-left: 10px;
 }
- .mob-li-list-exp{
-     margin-bottom: 25px;
+
+.mob-li-list-exp {
+    margin-bottom: 25px;
 }
- .text-muted{
-     display: block;
-     margin-top: 5px;
+
+.text-muted {
+    display: block;
+    margin-top: 5px;
 }
+
+
 /*------------ Portfolio------------ */
- .portfolio-image{
-     position: relative;
+
+.portfolio-image {
+    position: relative;
 }
- .btt_logo, .portfolio-2-image, .portfolio-3-image, .portfolio-4-image{
-     width: 100%;
-     margin-bottom: 8px;
+
+.btt_logo,
+.portfolio-2-image,
+.portfolio-3-image,
+.portfolio-4-image {
+    width: 100%;
+    margin-bottom: 8px;
 }
- .btt_logo{
-     padding-top: 5%;
-     padding-bottom: 5%;
+
+.btt_logo {
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
- .hvr-sweep-to-top:before{
-     background: #28bbb2;
-     opacity: 0.5;
-     z-index: 1;
+
+.hvr-sweep-to-top:before {
+    background: #28bbb2;
+    opacity: 0.5;
+    z-index: 1;
 }
- @media only screen and (max-width: 600px) {
-     .portfolio-entry{
-         margin: 0px 50px 25px 50px;
+
+@media only screen and (max-width: 600px) {
+    .portfolio-entry {
+        margin: 0px 50px 25px 50px;
     }
 }
+
+
 /*------------ Contact------------ */
- #contact-form{
-     text-align: center;
-     margin: 0px auto;
-     width: 85%;
+
+#contact-form {
+    text-align: center;
+    margin: 0px auto;
+    width: 85%;
 }
- .form-group{
-     margin-top: 15px;
+
+.form-group {
+    margin-top: 15px;
 }
+
+
 /*------------ Icons------------ */
- .experience-icon{
-     margin-bottom: 15px;
+
+.experience-icon {
+    margin-bottom: 15px;
 }
- .edu-logo-heading{
-     color:#28bbb2;
+
+.edu-logo-heading {
+    color: #28bbb2;
 }
