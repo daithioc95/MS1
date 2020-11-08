@@ -148,14 +148,14 @@ This project was deployed using GitHub pages at https://daithioc95.github.io/MS1
 All the content was written by myself.
 
 ### Media
-Home Image: https://pxhere.com/en/photo/33
-Experience map image: https://pxhere.com/en/photo/1450907
-Interactive Front-end image: https://commons.wikimedia.org/wiki/File:JavaScript-logo.png
-Data Centric image: https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg
-Full-Stack Frameworks image: https://www.pexels.com/photo/assorted-map-pieces-2859169/
-CodeInstitute logo: https://www.facebook.com/Code.InstituteIRL/
-Zhejiang University logo: https://en.wikipedia.org/wiki/Zhejiang_University
-University College Dublin logo: https://en.wikipedia.org/wiki/University_College_Dublin
+- Home Image: https://pxhere.com/en/photo/33
+- Experience map image: https://pxhere.com/en/photo/1450907
+- Interactive Front-end image: https://commons.wikimedia.org/wiki/File:JavaScript-logo.png
+- Data Centric image: https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg
+- Full-Stack Frameworks image: https://www.pexels.com/photo/assorted-map-pieces-2859169/
+- CodeInstitute logo: https://www.facebook.com/Code.InstituteIRL/
+- Zhejiang University logo: https://en.wikipedia.org/wiki/Zhejiang_University
+- University College Dublin logo: https://en.wikipedia.org/wiki/University_College_Dublin
 
 
 ### Acknowledgments
