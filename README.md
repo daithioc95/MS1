@@ -173,7 +173,28 @@ The main technologies used are as below.
 Tested and working consistently on the below browsers for desktop.
 - Google Chrome
 - Microsoft Edge 
+- Internet Explorer
 - Firefox
+
+- Mobile version manually tested throughout using google chrome on Xiaomi 8.
+
+- Tested on below screen sizes using Google Chrome developer tools.
+  - Moto G4
+  - Galaxy S5
+  - Pixel 2
+  - Pixel 2 XL
+  - iPhone 5/SE
+  - iPhone 6/7/8
+  - iPhone 6/7/8 Plus
+  - iPhone X
+  - iPad
+  - iPad Pro
+  - Surface Duo
+  - Galaxy Fold
+
+- The project passed the below validation tests.
+  - W3 HTML Validator
+  - Jigsaw CSS Validator
 
 ## Deployment
 This project was created using Gitpod for commit and push actions.
