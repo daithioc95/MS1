@@ -29,6 +29,16 @@ In creating my website, I followed the 5 levels of development below and have ou
 - As a recruiter/potential client, if interested I want to contact to the developer, so that I can see if he is available for work.
 
 ### Scope Plane
+The scope plane is included in order to identify needed sections and features for the website.
+This is an important section of the process as it ensures the project alignes with the previous mentioned goals in the Strategy Plane.
+It also reduces the risk of "Scope Creep" whereby project features grow in number throughout development. 
+
+- Necessary sections which align to the user stories are identifies as below.
+  - Home
+  - About
+  - Experience
+  - Portfolio
+  - Contact
 
 ### Structure Plane
 
