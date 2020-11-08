@@ -177,7 +177,22 @@ Tested and working consistently on the below browsers for desktop.
 
 ## Deployment
 This project was created using Gitpod for commit and push actions.
-This project was deployed using GitHub pages at https://daithioc95.github.io/MS1
+This project was deployed using GitHub pages at https://daithioc95.github.io/MS1 as below
+
+### Deploying the project
+1. In the Github repository, navigate to the settings tab.
+2. Locate the GitHub Pages section.
+3. Change source to master and select "Save"
+4. To confirm, scroll down to the same section on the refreshed page and the "Your site is published at https://daithioc95.github.io/MS1/" will appear.
+
+### Cloning the project
+If you wish to clone this project, action the following instructions.
+
+1. On the respitory "Code" tab, select the "Code" option at the top right.
+2. Copy the URL provided in the HTTPS section.
+3. Open the GitPod (or favoured environment) terminal and change to the desired directory for the clone to be located. 
+4. Enter command "git clone" and paste the previously copied URL.
+5. Hit enter and the clone will be created.
 
 ## Known Bugs and Fixs
 - Progress Bars
