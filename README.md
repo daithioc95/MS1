@@ -1,8 +1,8 @@
 # User Centric Frontend Development Milestone Project 
 
 This project is a portfolio website to showcase my skills and experience to recruiters and potential clients.
-The website will also be interactive and include designs which can be appreciated by the user.
-The website will both a vehicle for my brand and a means of contact for interested parties.
+The is an interactive website which include designs which can be appreciated by the user.
+The website is a vehicle for my brand and a means of contact for interested parties.
 
 ## UX
 
