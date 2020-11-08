@@ -13,6 +13,7 @@ Implementing this design will keep the audience engaged and compliment the users
 
 In creating my website, I followed the 5 levels of development below and have outlined these in the following headings.
 This is an effective means of web development which ensures and appropriate order of approach with each plane becomming less conceptual as the project evolves.
+ This process originates from Jesse James Garrett's book, The Elements of User Experience. 
 
 - Strategy Plane
 - Scope Plane
