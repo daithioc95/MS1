@@ -83,37 +83,37 @@ I began this by using pen and paper with the bootstrap grid system in mind and o
 The final plane involves the execution of everything collated and in the previous 4 planes. 
 It is important to ensure this planes aligns to the previous 4 planes however when the real website is being designed different stylistic decidions can be made in a agile manner. For example, I decided on my font in this stage as I could visually identify by trial and error suitable options.
 
-- Features
+#### Features
 Breakdown of the website features currently implemented on the website.
 
-- Navbar
+##### Navbar
 I created the Navbar using Bootstrap and editing the color to suit my websites design.
 
-- Home
+##### Home
 Simple image which I found on pxhere.com.
 I choose this as the yellow glow from the wood matches the teal and the map feature image to appear later.
 Additionally, the laptop, phone, books etc. represent convey a design/service use case for the website. 
 
-- About
+##### About
 The About section contains a heading with a circle container and a circle headshop image.
 The end of the about section contains a progress bar section.
 Other features include font awesome icons.
 
-- Experience
+##### Experience
 For desktop, this seciton includes an interactive map which shows experience depending on location.
 When the location is selected, experience relvant to this location apeears in an expanded box.
 I have included icons with links to media and files to back up my experience.
 
 For mobile, I included the same content, however to make up for lack of visuals compared to the desktop version, I included the organisations logos. 
 
-- Porfolio
+##### Porfolio
 For the portfolio seciton, I included a simple bootstrap grid design to show each project in a size-responsive manner.
 
-- Contact
+##### Contact
 The contact seciton is designed using a bootstrap form.
 An icon is used to transition into this section with relevant information prompted to contact the web developer. 
 
-- Footer
+##### Footer
 I included a simple footer design, I used font awesome icons to represent each link. 
 
 #### Future Features
@@ -145,7 +145,6 @@ The main technologies used are as below.
   - Form in the contact section: https://getbootstrap.com/docs/4.0/components/forms/
 - FontAwesome
   - FontAwesome was used to input icons throughout the project. I used 8 different icons throughout the project.
- 
 - Balsamiq
   - Used in the design process for wireframes.
 - Pxhere
@@ -164,9 +163,11 @@ The main technologies used are as below.
 - W3Schools
   - Used to gather a theoretuical knowledge of elements and effects (in particular <button> element)
     https://www.w3schools.com/w3css/w3css_buttons.asp
-- W3 Validator
-  - Used throghout the project to ensure I was following best practices with my code.
-
+- W3 HTML Validator
+  - Used throghout the project to ensure I was following best practices with HTML code.
+- Jigsaw CSS Validator
+  - Used throghout the project to ensure I was following best practices with CSS code.
+ 
 ## Testing
 ### Browsers
 Tested and working consistently on the below browsers for desktop.
