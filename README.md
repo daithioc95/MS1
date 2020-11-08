@@ -11,6 +11,14 @@ To complement this, an interactive, easy on the eye design will be implemented.
 This will be executed by designing a single paged long scroll website, with options to navigate to any particular sections using the Menu bar.
 Implementing this design will keep the audience engaged and compliment the users stories by firstly feeding the user with “what” it is that do, secondly, showing projects to convey “How” I do it and finally, providing a means of contact should they want to collaborate.
 
+In creating my website, I followed the 5 levels of development below and have outlined these in the following headings.
+
+- Strategy Plane
+- Scope Plane
+- Structure Plane
+- Skeleton Plane
+- Surface Plane
+
 ### Strategy Plane
 
 #### User Stories
