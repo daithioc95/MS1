@@ -11,14 +11,20 @@ To complement this, an interactive, easy on the eye design will be implemented.
 This will be executed by designing a single paged long scroll website, with options to navigate to any particular sections using the Menu bar.
 Implementing this design will keep the audience engaged and compliment the users stories by firstly feeding the user with “what” it is that do, secondly, showing projects to convey “How” I do it and finally, providing a means of contact should they want to collaborate.
 
-### User Stories
+### Strategy Plane
+
+#### User Stories
 - As a recruiter/potential client, I want to see the web developers experience, so that I can see if this is relevant to the job/project requirements.
 - As a recruiter/potential client, I want to see the web developers’ skills, so that I can see if these skills match the job/project.
 - As a recruiter/potential client, I want to see the developer’s portfolio, so that I can see if his previous projects require capabilities relevant to this job/project.
 - As a recruiter/potential client, I want to easily find this information while appreciating the websites design, so that I can see that the developer is competent in front-end development.
 - As a recruiter/potential client, if interested I want to contact to the developer, so that I can see if he is available for work.
 
-### Design Process 
+### Scope Plane
+
+### Structure Plane
+
+#### Design Process 
 - I began the design process by firstly identifying the sections neccessary to meet the criteria of my use stories. This included the Home, About, Experience, Portfolio & Contact sections.
 - The next stage of the process was to brainstorm features. 
   - In addition to the usual sections a portfolio website contains, I wanted to use an interactive map as a statement piece to showcase CSS skills and provide information on my international experience.
@@ -26,6 +32,9 @@ Implementing this design will keep the audience engaged and compliment the users
   - When searching for potential maps on pxhere.com, I can accross a treasure island like map which suited the feature aestetically.
   - Using the lightest and darkest colors from the map, I input this to https://mycolor.space/ to generate a 3 color gradient and thats when I choose a teal-like #5FFBF1 as my primary site color.
   -Other features I decided on were a progress bar for skills, I took inspiration for thing for the mini-project as it is a great was to visually portray my skills.
+  
+### Skeleton Plane
+
 - When all my sections and additional features were decided upon, I moved onto creating wireframes for both the mobile and browser.
 I began this by using pen and paper with the bootstrap grid system in mind and once a general, responsive idea formed, I created the below using balsamiq.
 
@@ -33,40 +42,42 @@ I began this by using pen and paper with the bootstrap grid system in mind and o
 
 - See Mobile Wireframe [here](assets/MS1_Mobile.pdf)
 
-## Features
+### Surface Plane
+
+#### Features
 Breakdown of the website features by section
 
-### Navbar
+##### Navbar
 I created the Navbar using Bootstrap and editing the color to suit my websites design.
 
-### Home
+##### Home
 Simple image which I found on pxhere.com.
 I choose this as the yellow glow from the wood matches the teal and the map feature image to appear later.
 Additionally, the laptop, phone, books etc. represent convey a design/service use case for the website. 
 
-### About
+##### About
 The About section contains a heading with a circle container and a circle headshop image.
 The end of the about section contains a progress bar section.
 Other features include font awesome icons.
 
-### Experience
+##### Experience
 For desktop, this seciton includes an interactive map which shows experience depending on location.
 When the location is selected, experience relvant to this location apeears in an expanded box.
 I have included icons with links to media and files to back up my experience.
 
 For mobile, I included the same content, however to make up for lack of visuals compared to the desktop version, I included the organisations logos. 
 
-### Porfolio
+##### Porfolio
 For the portfolio seciton, I included a simple bootstrap grid design to show each project in a size-responsive manner.
 
-### Contact
+##### Contact
 The contact seciton is designed using a bootstrap form.
 An icon is used to transition into this section with relevant information prompted to contact the web developer. 
 
-### Footer
+##### Footer
 I included a simple footer design, I used font awesome icons to represent each link. 
 
-### Future Features
+#### Future Features
 Please see below list of features which I intend to implement at a later stage.
 - Media carosel: When an icon is selected in the desktop media section, I plan to implement a media carosel/slideshow for videos/images corresponding the the entry. Currently I have a link to youtube for each entry.
 - Background: I plan to implement subtle background styles for each section to aid the transition. For this version, I stayed with a white background but at a future stage I believe the website can benefit with some variety.
