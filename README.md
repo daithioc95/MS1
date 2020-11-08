@@ -12,7 +12,7 @@ This will be achieved by executing a single paged long scroll website, with opti
 Implementing this design will keep the audience engaged and compliment the users stories by firstly feeding the user with “what” it is that do, secondly, showing projects to convey “How” I do it and finally, providing a means of contact should they want to collaborate.
 
 In creating my website, I followed the 5 levels of development below and have outlined these in the following headings.
-This is an effective means of web development which ensures and appropriate order of approach with each plane becomming less conceptual as the project evolves.
+This is an effective means of web development which ensures an appropriate order of approach with each plane becomming less conceptual as the project evolves.
  This process originates from Jesse James Garrett's book, The Elements of User Experience. 
 
 - Strategy Plane
@@ -23,10 +23,11 @@ This is an effective means of web development which ensures and appropriate orde
 
 ### Strategy Plane
 The strategy plane is the most high level plan of the website.
-This planes i fimportant as it ensure that all the following sections and website end product aligns to the websites objectives.
-For this plane, I identified my primary objects and user stories of the website.
+This planes is important as it ensures that all the following sections and website end product aligns to the websites objectives.
+For this plane, I identified my primary objects and user stories of the website below.
 
 #### Project Objectives
+- Portray my experience and what the website is for
 - Showcase my CSS & HTML skills to the audience.
 - Provide the user with a means of contact.
 
@@ -39,7 +40,7 @@ For this plane, I identified my primary objects and user stories of the website.
 
 ### Scope Plane
 The scope plane is included in order to identify needed sections and features for the website.
-This is an important section of the process as it ensures the project alignes with the previous mentioned goals in the Strategy Plane.
+This is an important section of the process as it ensures the project alignes with the previous mentioned objectives in the Strategy Plane.
 It also reduces the risk of "Scope Creep" whereby project features grow in number throughout development.
 
 - Necessary sections which align to the user stories are identifies as below.
@@ -53,14 +54,18 @@ It also reduces the risk of "Scope Creep" whereby project features grow in numbe
  - In addition to the usual sections a portfolio website contains, I wanted to use an interactive map as a statement piece to showcase CSS skills and provide information on my international experience.
 
 ### Structure Plane
-
+The structure plane is the next stage which outlines how to projects sections and features will fit into the website.
+While anticipating the text-heavy nature potfolio websites can be, my objective for this plane was to provide the content to the user in an interactive and easy to digest manner.
 
 #### Design Process 
   - I decided on the interactive map feature for large screens only as using a small screen would be difficult to select specific points on the map.
   - When searching for potential maps on pxhere.com, I can accross a treasure island like map which suited the feature aestetically.
   - Using the lightest and darkest colors from the map, I input this to https://mycolor.space/ to generate a 3 color gradient and thats when I choose a teal-like #5FFBF1 as my primary site color.
-  -Other features I decided on were a progress bar for skills, I took inspiration for thing for the mini-project as it is a great was to visually portray my skills.
-  
+  - This color was used as the header font color thoughout.
+  - Paragraph font was a standard black color throughout. 
+  - Other features I decided on were a progress bar for skills, I took inspiration for thing for the mini-project as it is a great was to visually portray my skills.
+  - Font Awesome Icons were used thoughout the website to provide more infomation on sections and links.
+ 
 ### Skeleton Plane
 Once the sections and features of the website is identified, the skeleton plane can begin.
 This plane focuses on the arrangement of the sections and features of the website.
@@ -78,37 +83,37 @@ I began this by using pen and paper with the bootstrap grid system in mind and o
 The final plane involves the execution of everything collated and in the previous 4 planes. 
 It is important to ensure this planes aligns to the previous 4 planes however when the real website is being designed different stylistic decidions can be made in a agile manner. For example, I decided on my font in this stage as I could visually identify by trial and error suitable options.
 
-#### Features
+- Features
 Breakdown of the website features currently implemented on the website.
 
-##### Navbar
+- Navbar
 I created the Navbar using Bootstrap and editing the color to suit my websites design.
 
-##### Home
+- Home
 Simple image which I found on pxhere.com.
 I choose this as the yellow glow from the wood matches the teal and the map feature image to appear later.
 Additionally, the laptop, phone, books etc. represent convey a design/service use case for the website. 
 
-##### About
+- About
 The About section contains a heading with a circle container and a circle headshop image.
 The end of the about section contains a progress bar section.
 Other features include font awesome icons.
 
-##### Experience
+- Experience
 For desktop, this seciton includes an interactive map which shows experience depending on location.
 When the location is selected, experience relvant to this location apeears in an expanded box.
 I have included icons with links to media and files to back up my experience.
 
 For mobile, I included the same content, however to make up for lack of visuals compared to the desktop version, I included the organisations logos. 
 
-##### Porfolio
+- Porfolio
 For the portfolio seciton, I included a simple bootstrap grid design to show each project in a size-responsive manner.
 
-##### Contact
+- Contact
 The contact seciton is designed using a bootstrap form.
 An icon is used to transition into this section with relevant information prompted to contact the web developer. 
 
-##### Footer
+- Footer
 I included a simple footer design, I used font awesome icons to represent each link. 
 
 #### Future Features
