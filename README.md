@@ -159,10 +159,11 @@ All the content was written by myself.
 
 
 ### Acknowledgments
-The experience map was taken from code the following code written by Michael Mroz and edited to match my map and content.
-Inspiration for elements in the about and skills section layout came from the resume section of CodeInstitutes "Mini Project". This include the using the font aweson icons and the progress bars.
-Inspiration to use fontawesome icons with hover glow in the footer section was also from the CodeInstitutes "Mini Project".
-Inspiration for the circular headshot image in the about section came from the the HTML/CSS Project - love running section of the CSS Fundamentals module.
-Thanks to the Code Institute Tutors for helping me problem solving, in particularly regarding the my experience section to satify the HTML W3 Validator.
-Thanks to my mentor, Mark Railton for guidence throughout the project.
-Thanks to the Code Institute Slack channel for providing me with a wealth of information on each aspect of the project.
+- The experience map was taken from code the following code written by Michael Mroz and edited to match my map and content.
+- Inspiration for elements in the about and skills section layout came from the resume section of CodeInstitutes "Mini Project". This include the using the font aweson icons and the progress bars.
+- Inspiration to use fontawesome icons with hover glow in the footer section was also from the CodeInstitutes "Mini Project".
+- Inspiration for the circular headshot image in the about section came from the the HTML/CSS Project - love running section of the CSS Fundamentals module.
+- Thanks to the Code Institute Tutors for helping me problem solving, in particularly regarding the my experience section to satify the HTML W3 Validator.
+- Thanks to my mentor, Mark Railton for guidence throughout the project.
+- The form submit button message prompt was completed using JavaScript written by Mark Railton. 
+- Thanks to the Code Institute Slack channel for providing me with a wealth of information on each aspect of the project.
