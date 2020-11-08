@@ -12,6 +12,7 @@ This will be executed by designing a single paged long scroll website, with opti
 Implementing this design will keep the audience engaged and compliment the users stories by firstly feeding the user with “what” it is that do, secondly, showing projects to convey “How” I do it and finally, providing a means of contact should they want to collaborate.
 
 In creating my website, I followed the 5 levels of development below and have outlined these in the following headings.
+This is an effective means of web development which ensures and appropriate order of approach with each plane becomming less conceptual as the project evolves.
 
 - Strategy Plane
 - Scope Plane
@@ -31,7 +32,7 @@ In creating my website, I followed the 5 levels of development below and have ou
 ### Scope Plane
 The scope plane is included in order to identify needed sections and features for the website.
 This is an important section of the process as it ensures the project alignes with the previous mentioned goals in the Strategy Plane.
-It also reduces the risk of "Scope Creep" whereby project features grow in number throughout development. 
+It also reduces the risk of "Scope Creep" whereby project features grow in number throughout development.
 
 - Necessary sections which align to the user stories are identifies as below.
   - Home
@@ -52,18 +53,24 @@ It also reduces the risk of "Scope Creep" whereby project features grow in numbe
   -Other features I decided on were a progress bar for skills, I took inspiration for thing for the mini-project as it is a great was to visually portray my skills.
   
 ### Skeleton Plane
+Once the sections and features of the website is identified, the skeleton plane can begin.
+This plane focuses on the arrangement of the sections and features of the website.
 
-- When all my sections and additional features were decided upon, I moved onto creating wireframes for both the mobile and browser.
+- I created wireframes for both the mobile and browser to visualise the arrangment of my scope.
 I began this by using pen and paper with the bootstrap grid system in mind and once a general, responsive idea formed, I created the below using balsamiq.
 
 - See Desktop Wireframe [here](assets/MS1_Desktop.pdf)
 
 - See Mobile Wireframe [here](assets/MS1_Mobile.pdf)
 
+- The only major changes between the wireframes and the final site version is that I changed the mobile version portfolio section to include 1 entry per column as opposed to 2 in the wireframe.
+
 ### Surface Plane
+The final plane involves the execution of everything collated and in the previous 4 planes. 
+It is important to ensure this planes aligns to the previous 4 planes however when the real website is being designed different stylistic decidions can be made in a agile manner. For example, I decided on my font in this stage as I could visually identify by trial and error suitable options.
 
 #### Features
-Breakdown of the website features by section
+Breakdown of the website features currently implemented on the website.
 
 ##### Navbar
 I created the Navbar using Bootstrap and editing the color to suit my websites design.
