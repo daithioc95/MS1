@@ -21,8 +21,15 @@ This is an effective means of web development which ensures and appropriate orde
 - Surface Plane
 
 ### Strategy Plane
+The strategy plane is the most high level plan of the website.
+This planes i fimportant as it ensure that all the following sections and website end product aligns to the websites objectives.
+For this plane, I identified my primary objects and user stories of the website.
 
-#### User Stories
+#### Project Objectives
+- Showcase my CSS & HTML skills to the audience.
+- Provide the user with a means of contact.
+
+##### User Stories
 - As a recruiter/potential client, I want to see the web developers experience, so that I can see if this is relevant to the job/project requirements.
 - As a recruiter/potential client, I want to see the web developers’ skills, so that I can see if these skills match the job/project.
 - As a recruiter/potential client, I want to see the developer’s portfolio, so that I can see if his previous projects require capabilities relevant to this job/project.
@@ -40,14 +47,15 @@ It also reduces the risk of "Scope Creep" whereby project features grow in numbe
   - Experience
   - Portfolio
   - Contact
+  
+ - The next stage of the process was to brainstorm features to ensure I Showcase my CSS & HTML skills to the user. 
+ - In addition to the usual sections a portfolio website contains, I wanted to use an interactive map as a statement piece to showcase CSS skills and provide information on my international experience.
 
 ### Structure Plane
 
+
 #### Design Process 
-- I began the design process by firstly identifying the sections neccessary to meet the criteria of my use stories. This included the Home, About, Experience, Portfolio & Contact sections.
-- The next stage of the process was to brainstorm features. 
-  - In addition to the usual sections a portfolio website contains, I wanted to use an interactive map as a statement piece to showcase CSS skills and provide information on my international experience.
-  - I decided on this feature for large screens only as using a small screen would be difficult to select specific points on the map.
+  - I decided on the interactive map feature for large screens only as using a small screen would be difficult to select specific points on the map.
   - When searching for potential maps on pxhere.com, I can accross a treasure island like map which suited the feature aestetically.
   - Using the lightest and darkest colors from the map, I input this to https://mycolor.space/ to generate a 3 color gradient and thats when I choose a teal-like #5FFBF1 as my primary site color.
   -Other features I decided on were a progress bar for skills, I took inspiration for thing for the mini-project as it is a great was to visually portray my skills.
