@@ -159,7 +159,7 @@ All the content was written by myself.
 
 
 ### Acknowledgments
-- The experience map was taken from code the following code written by Michael Mroz and edited to match my map and content.
+- The experience map was created by adapting and editing code written by Michael Mroz which can be found in the following link (https://codepen.io/mirichan/pen/jEBmyG).
 - Inspiration for elements in the about and skills section layout came from the resume section of CodeInstitutes "Mini Project". This include the using the font aweson icons and the progress bars.
 - Inspiration to use fontawesome icons with hover glow in the footer section was also from the CodeInstitutes "Mini Project".
 - Inspiration for the circular headshot image in the about section came from the the HTML/CSS Project - love running section of the CSS Fundamentals module.
