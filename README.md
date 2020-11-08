@@ -115,17 +115,17 @@ The main technologies used are as below.
   - Used for font implementation and inspiration.
 - https://mycolor.space/
   -Used for pallet testing.
- -GitPod
+- GitPod
   - Used to create, commit and push the HTML and CSS changes for the website.
- -GitHub
+- GitHub
   - Used to deplot the website and store files and code.
- -Stackoverflow
+- Stackoverflow
   - Used for problem solving to implement desired designs.
   - Used to gain better understanding of how I should approach the implementation of elements.
- -W3Schools
+- W3Schools
   - Used to gather a theoretuical knowledge of elements and effects (in particular <button> element)
     https://www.w3schools.com/w3css/w3css_buttons.asp
- -W3 Validator
+- W3 Validator
   - Used throghout the project to ensure I was following best practices with my code.
 
 ## Testing
