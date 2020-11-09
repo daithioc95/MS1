@@ -45,6 +45,22 @@ h2#contact-heading {
     font-size: 15px;
 }
 
+.welcome-image-text{
+    position: relative;
+}
+
+.welcome-image-text span { 
+  background-color: rgba(40, 187, 178, .4);
+  color: #fff; 
+  display: inline;
+  padding: 0.5rem;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 /*------------ Images------------ */
 
