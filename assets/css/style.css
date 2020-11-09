@@ -45,21 +45,22 @@ h2#contact-heading {
     font-size: 15px;
 }
 
+/* Welcome-image-text */
 .welcome-image-text{
     position: relative;
 }
 
 .desktop-welcome-text { 
-  background-color: rgba(40, 187, 178, .4);
-  color: #fff; 
-  display: inline;
-  padding: 0.5rem;
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    background-color: rgba(40, 187, 178, .5);
+    color: #fff; 
+    display: inline;
+    padding: 0.5rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .mobile-welcome-text{
@@ -73,9 +74,7 @@ h2#contact-heading {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
-
 
 /*------------ Images------------ */
 
