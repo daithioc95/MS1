@@ -173,19 +173,23 @@ The main technologies used are as below.
 ## Testing
 ### Testing User Stories
 As a recruiter/potential client, I want to see the web developers experience, so that I can see if this is relevant to the job/project requirements.
+
    - The “Who am I?” section which is a sub section of the “About” section includes a paragraph outlining the developers experience immediately after the welcome image.
    - The menu includes an “experience” section where the user can choose to go directly to this information or alternatively scroll down to the “experience” section. On the desktop, the user can select the interactive map which will display experience depending on the location. On mobiles, the user receives a slightly different experience, the developers experience is separated into “Education” and “Employment” and entries are display newest to oldest.
    -	Media items are also included to route the user to videos or files relating to the developers experience in a new tab.
    -	The user can also choose to select the LinkedIn icon in the footer section to view the developers work.
 As a recruiter/potential client, I want to see the web developers’ skills, so that I can see if these skills match the job/project.
+
    -	The menu includes an “About” section where the user can choose to go directly to this information or alternatively scroll down to the “Skills” section which is located within the About section. Below the skills heading shows the developer 2 most important skills for web development, “Communication” and “Full Stack” with a description of the developers’ skills in these areas.
    -	Progress bars are then included to visually outline to the user the technical competencies of the developer.
 As a recruiter/potential client, I want to see the developer’s portfolio, so that I can see if his previous projects require capabilities relevant to this job/project.
+
    -	The menu includes a “portfolio” section where the user can choose to go directly to this information or alternatively scroll down to the “portfolio” section. The user can then select the relevant project which will route the user to the desired project in a new tab. (some project is yet to be complete which is displayed play (coming soon)).
    -	The user can also choose to select the GitHub icon in the footer section to view the developers work.
 As a recruiter/potential client, I want to easily find this information while appreciating the websites design, so that I can see that the developer is competent in front-end development.
    -	The single pages long scroll website creates an easy on the eye continuity, feeding the user with more information. The website renders on all device sizes proving the developer’s competence in responsive web design. The experience map allows for an interactive experience for the user which portrays the users design capabilities in HTML and CSS.
 As a recruiter/potential client, if interested I want to contact to the developer, so that I can see if he is available for work.
+
    -	The menu includes a “contact” section where the user can choose to go directly to this information or alternatively scroll down to the “contact” section. This section is located at the bottom of the page as I feel proving capabilities is the priority before the user feels compelled to contact. 
    -	The contact section consists of a heading “Lets collaborate” and subheading “Fill in the below with info on your project”, opening the invitation to the user to contact for work.
    -	The user can also choose to select the Envelope icon in the footer section to email the developer directly.
