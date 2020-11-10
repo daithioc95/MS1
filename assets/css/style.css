@@ -79,7 +79,7 @@ h2#contact-heading {
 /*------------ Images------------ */
 
 #headshot {
-    background: url("https://github.com/daithioc95/miniProject1/blob/master/assets/images/logo.jpg?raw=true") no-repeat center center;
+    background: url("/assets/images/logo.jpg") no-repeat center center;
     height: 100%;
     background-size: cover;
     border-radius: 50%;
@@ -105,7 +105,7 @@ h2#contact-heading {
     height: 120px;
     padding: 0px;
     margin: 0 auto;
-    background: url("https://github.com/daithioc95/MS1/blob/d83c00c17613472e37035f3c80d09a7c9dde36d6/assets/images/logos/codeinstitute_logo.png?raw=true") no-repeat center center;
+    background: url("/assets/images/logos/codeinstitute_logo.png") no-repeat center center;
     background-size: cover;
     border-radius: 50%;
 }
@@ -115,7 +115,7 @@ h2#contact-heading {
     height: 120px;
     padding: 0px;
     margin: 0 auto;
-    background: url("https://github.com/daithioc95/MS1/blob/8c6c5d1bf5b5cc7b7edddcd8f3ed60767ee06317/assets/images/logos/Zhejiang_University_Logo.png?raw=true") no-repeat center center;
+    background: url("/assets/images/logos/Zhejiang_University_Logo.png") no-repeat center center;
     background-size: cover;
     border-radius: 50%;
 }
@@ -125,7 +125,7 @@ h2#contact-heading {
     height: 120px;
     padding: 0px;
     margin: 0 auto;
-    background: url("https://github.com/daithioc95/MS1/blob/master/assets/images/logos/UCD_logo.png?raw=true") no-repeat center center;
+    background: url("/assets/images/logos/UCD_logo.png") no-repeat center center;
     background-size: contain;
 }
 
@@ -134,7 +134,7 @@ h2#contact-heading {
     height: 120px;
     padding: 0px;
     margin: 0 auto;
-    background: url("https://github.com/daithioc95/MS1/blob/c5c72cd462025c7e859d20acf8eee487a3075d2f/assets/images/logos/PPB_logo.jpg?raw=true") no-repeat center center;
+    background: url("/assets/images/logos/PPB_logo.jpg") no-repeat center center;
     background-size: contain;
 }
 
@@ -143,7 +143,7 @@ h2#contact-heading {
     height: 120px;
     padding: 0px;
     margin: 0 auto;
-    background: url("https://github.com/daithioc95/MS1/blob/c5c72cd462025c7e859d20acf8eee487a3075d2f/assets/images/logos/coderbunker-cropped.png?raw=true") no-repeat center center;
+    background: url("/assets/images/logos/coderbunker-cropped.png") no-repeat center center;
     background-size: contain;
 }
 
@@ -152,7 +152,7 @@ h2#contact-heading {
     height: 120px;
     padding: 0px;
     margin: 0 auto;
-    background: url("https://github.com/daithioc95/MS1/blob/cb71b41efaace90d7b2ac3b8787317c2b2d8a636/assets/images/logos/gge_logo.png?raw=true") no-repeat center center;
+    background: url("/assets/images/logos/gge_logo.png") no-repeat center center;
     background-size: contain;
 }
 
@@ -161,7 +161,7 @@ h2#contact-heading {
     height: 120px;
     padding: 0px;
     margin: 0 auto;
-    background: url("https://github.com/daithioc95/MS1/blob/cb71b41efaace90d7b2ac3b8787317c2b2d8a636/assets/images/logos/yosemite_logo.jpg?raw=true") no-repeat center center;
+    background: url("/assets/images/logos/yosemite_logo.jpg") no-repeat center center;
     background-size: contain;
 }
 
