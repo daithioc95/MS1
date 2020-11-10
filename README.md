@@ -3,7 +3,7 @@
 
 
 This project is a portfolio website to showcase my skills and experience to recruiters and potential clients.
-The is an interactive website which include designs which can be appreciated by the user.
+This is an interactive website which include designs which can be appreciated by the user.
 The website is a vehicle for my brand and a means of contact for interested parties.
 
 ## UX
@@ -25,7 +25,7 @@ This is an effective means of web development which ensures an appropriate order
 
 ### Strategy Plane
 The strategy plane is the most high level plan of the website.
-This planes is important as it ensures that all the following sections and website end product aligns to the websites objectives.
+This plane is important as it ensures that all the following sections and website end product aligns to the websites objectives.
 For this plane, I identified my primary objects and user stories of the website below.
 
 #### Project Objectives
