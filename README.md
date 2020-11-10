@@ -173,7 +173,7 @@ The main technologies used are as below.
 ## Testing
 ### Testing User Stories
 -	As a recruiter/potential client, I want to see the web developers experience, so that I can see if this is relevant to the job/project requirements.
-  - The “Who am I?” section which is a sub section of the “About” section includes a paragraph outlining the developers experience immediately after the welcome image.
+   - The “Who am I?” section which is a sub section of the “About” section includes a paragraph outlining the developers experience immediately after the welcome image.
   - The menu includes an “experience” section where the user can choose to go directly to this information or alternatively scroll down to the “experience” section. On the desktop, the user can select the interactive map which will display experience depending on the location. On mobiles, the user receives a slightly different experience, the developers experience is separated into “Education” and “Employment” and entries are display newest to oldest.
   -	Media items are also included to route the user to videos or files relating to the developers experience in a new tab.
   -	The user can also choose to select the LinkedIn icon in the footer section to view the developers work.
