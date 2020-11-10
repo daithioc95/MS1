@@ -1,4 +1,6 @@
 # User Centric Frontend Development Milestone Project 
+![alt text](assets/images/responsive_theme.PNG)
+
 
 This project is a portfolio website to showcase my skills and experience to recruiters and potential clients.
 The is an interactive website which include designs which can be appreciated by the user.
