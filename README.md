@@ -1,7 +1,6 @@
 # User Centric Frontend Development Milestone Project 
 ![Device Responsive Image Theme](assets/images/responsive_theme.PNG)
 
-
 This project is a portfolio website to showcase my skills and experience to recruiters and potential clients.
 This is an interactive website which include designs which can be appreciated by the user.
 The website is a vehicle for my brand and a means of contact for interested parties.
@@ -75,9 +74,7 @@ This plane focuses on the arrangement of the sections and features of the websit
 - I created wireframes for both the mobile and browser to visualise the arrangment of my scope.
 I began this by using pen and paper with the bootstrap grid system in mind and once a general, responsive idea formed, I created the below using balsamiq.
 
-- See Desktop Wireframe [here](assets/MS1_Desktop.pdf)
-
-- See Mobile Wireframe [here](assets/MS1_Mobile.pdf)
+![Desktop Wireframe](assets/images/Desktop_Wireframe_Img.png)![Mobile Wireframe](assets/images/Mobile_Wireframe_Img.png)
 
 - The only major changes between the wireframes and the final site version is that I changed the mobile version portfolio section to include 1 entry per column as opposed to 2 in the wireframe.
 
