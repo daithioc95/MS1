@@ -76,6 +76,7 @@ I began this by using pen and paper with the bootstrap grid system in mind and o
 
 #### Desktop Wireframe
 <img src="assets/images/Desktop_Wireframe_Img.png" width="80%">
+
 #### Mobile Wireframe
 <img src="assets/images/Mobile_Wireframe_Img.png" width="160%">
 
