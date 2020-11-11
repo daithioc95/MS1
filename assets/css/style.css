@@ -22,14 +22,12 @@ p {
     opacity: 0.5;
 }
 
-h2#about-heading,
-h2#skills-heading,
-h2#experience-heading,
-h2#portfolio-heading,
-h2#contact-heading {
+h2 {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+/* Experience map font */
 
 .span-h5,
 .span-h6 {
@@ -46,6 +44,7 @@ h2#contact-heading {
 }
 
 /* Welcome-image-text */
+
 .welcome-image-text{
     position: relative;
 }
@@ -80,7 +79,7 @@ h2#contact-heading {
 /*------------ Images------------ */
 
 #headshot {
-    background: url("https://daithioc95.github.io/MS1/assets/images/logo.jpg") no-repeat center center;
+    background: url("../images/logo.jpg") no-repeat center center;
     height: 100%;
     background-size: cover;
     border-radius: 50%;
@@ -106,7 +105,7 @@ h2#contact-heading {
     height: 120px;
     padding: 0px;
     margin: 0 auto;
-    background: url("https://daithioc95.github.io/MS1/assets/images/logos/codeinstitute_logo.png") no-repeat center center;
+    background: url("../images/logos/codeinstitute_logo.png") no-repeat center center;
     background-size: cover;
     border-radius: 50%;
 }
@@ -116,7 +115,7 @@ h2#contact-heading {
     height: 120px;
     padding: 0px;
     margin: 0 auto;
-    background: url("https://daithioc95.github.io/MS1/assets/images/logos/Zhejiang_University_Logo.png") no-repeat center center;
+    background: url("../images/logos/Zhejiang_University_Logo.png") no-repeat center center;
     background-size: cover;
     border-radius: 50%;
 }
@@ -126,7 +125,7 @@ h2#contact-heading {
     height: 120px;
     padding: 0px;
     margin: 0 auto;
-    background: url("https://daithioc95.github.io/MS1/assets/images/logos/UCD_logo.png") no-repeat center center;
+    background: url("../images/logos/UCD_logo.png") no-repeat center center;
     background-size: contain;
 }
 
@@ -135,7 +134,7 @@ h2#contact-heading {
     height: 120px;
     padding: 0px;
     margin: 0 auto;
-    background: url("https://daithioc95.github.io/MS1/assets/images/logos/PPB_logo.jpg") no-repeat center center;
+    background: url("../images/logos/PPB_logo.jpg") no-repeat center center;
     background-size: contain;
 }
 
@@ -144,7 +143,7 @@ h2#contact-heading {
     height: 120px;
     padding: 0px;
     margin: 0 auto;
-    background: url("https://daithioc95.github.io/MS1/assets/images/logos/coderbunker-cropped.png") no-repeat center center;
+    background: url("../images/logos/coderbunker-cropped.png") no-repeat center center;
     background-size: contain;
 }
 
@@ -153,7 +152,7 @@ h2#contact-heading {
     height: 120px;
     padding: 0px;
     margin: 0 auto;
-    background: url("https://daithioc95.github.io/MS1/assets/images/logos/gge_logo.png") no-repeat center center;
+    background: url("../images/logos/gge_logo.png") no-repeat center center;
     background-size: contain;
 }
 
@@ -162,7 +161,7 @@ h2#contact-heading {
     height: 120px;
     padding: 0px;
     margin: 0 auto;
-    background: url("https://daithioc95.github.io/MS1/assets/images/logos/yosemite_logo.jpg") no-repeat center center;
+    background: url("../images/logos/yosemite_logo.jpg") no-repeat center center;
     background-size: contain;
 }
 
@@ -328,12 +327,6 @@ footer {
     border-radius: 20px;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
     opacity: 0.8;
-    /* -moz-transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
-    -o-transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
-    -webkit-transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out, z-index 0.25s ease-in-out; */
-    /* -webkit-transition-delay: 0.25s, 0.25s, 0.25s, 0.25s; */
-    /* -webkit-transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
-    transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s; */
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -377,8 +370,6 @@ footer {
     -moz-transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
     -o-transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
     -webkit-transition: opacity 0.25s ease-in-out, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
-    /* -webkit-transition-delay: 0.25s, 0s, 0s; */
-    /* -webkit-transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out; */
     transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
     overflow: visible;
 }
