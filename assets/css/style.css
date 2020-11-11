@@ -474,6 +474,10 @@ footer {
 
 /*------------ Portfolio------------ */
 
+.project-title{
+    margin-top: 8px;
+}
+
 .portfolio-image {
     position: relative;
 }
@@ -483,7 +487,6 @@ footer {
 .portfolio-3-image,
 .portfolio-4-image {
     width: 100%;
-    margin-bottom: 8px;
 }
 
 .btt_logo {
