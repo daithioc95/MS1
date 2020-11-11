@@ -1,5 +1,5 @@
 # User Centric Frontend Development Milestone Project 
-![alt text](assets/images/responsive_theme.PNG)
+![Device Responsive Image Theme](assets/images/responsive_theme.PNG)
 
 
 This project is a portfolio website to showcase my skills and experience to recruiters and potential clients.
