@@ -164,7 +164,7 @@ The main technologies used are as below.
   - Used for problem solving to implement desired designs.
   - Used to gain better understanding of how I should approach the implementation of elements.
 - W3Schools
-  - Used to gather a theoretuical knowledge of elements and effects (in particular <button> element)
+  - Used to gather a theoretuical knowledge of elements and effects (in particular the button element)
     https://www.w3schools.com/w3css/w3css_buttons.asp
 - W3 HTML Validator
   - Used throghout the project to ensure I was following best practices with HTML code.
