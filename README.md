@@ -7,10 +7,10 @@ The website is a vehicle for my brand and a means of contact for interested part
 
 ## UX
 
-The website will contain a simple design to ensure the primary function of providing information to the audience on devices of all sizes.
-To complement this, an interactive, easy on the eye design will be implemented.
-This will be achieved by executing a single paged long scroll website, with options to navigate to any particular sections using the Menu bar.
-Implementing this design will keep the audience engaged and compliment the users stories by firstly feeding the user with “what” it is that do, secondly, showing projects to convey “How” I do it and finally, providing a means of contact should they want to collaborate.
+The website contains a simple design to ensure the primary function of providing information to the audience on devices of all sizes.
+To complement this, an interactive, easy on the eye design has been implemented.
+This will be achieved by executing a single paged long scroll website, with options to navigate to any particular sections using the menu bar.
+Implementing this design will keep the audience engaged and compliment the users stories by firstly feeding the user with “what” it is that the developer does, secondly, showing projects to convey “How” the developer do it and finally, providing a means of contact should they want to collaborate.
 
 In creating my website, I followed the 5 levels of development below and have outlined these in the following headings.
 This is an effective means of web development which ensures an appropriate order of approach with each plane becomming less conceptual as the project evolves.
@@ -23,13 +23,13 @@ This is an effective means of web development which ensures an appropriate order
 - Surface Plane
 
 ### Strategy Plane
-The strategy plane is the most high level plan of the website.
+The strategy plane contains the high level plan of the website.
 This plane is important as it ensures that all the following sections and website end product aligns to the websites objectives.
-For this plane, I identified my primary objects and user stories of the website below.
+For this plane, the below primary objectives and user stories of the website were identified below.
 
 #### Project Objectives
-- Portray my experience and what the website is for
-- Showcase my CSS & HTML skills to the audience.
+- Portray the developers experience and what the website is for.
+- Showcase the developers CSS & HTML skills to the audience.
 - Provide the user with a means of contact.
 
 ##### User Stories
@@ -37,10 +37,10 @@ For this plane, I identified my primary objects and user stories of the website 
 - As a recruiter/potential client, I want to see the web developers’ skills, so that I can see if these skills match the job/project.
 - As a recruiter/potential client, I want to see the developer’s portfolio, so that I can see if his previous projects require capabilities relevant to this job/project.
 - As a recruiter/potential client, I want to easily find this information while appreciating the websites design, so that I can see that the developer is competent in front-end development.
-- As a recruiter/potential client, if interested I want to contact to the developer, so that I can see if he is available for work.
+- As a recruiter/potential client, if interested, I want to contact to the developer, so that I can see if he is available for work.
 
 ### Scope Plane
-The scope plane is included in order to identify needed sections and features for the website.
+The scope plane is included to identify needed sections and features for the website.
 This is an important section of the process as it ensures the project alignes with the previous mentioned objectives in the Strategy Plane.
 It also reduces the risk of "Scope Creep" whereby project features grow in number throughout development.
 
@@ -61,7 +61,7 @@ While anticipating the text-heavy nature potfolio websites can be, my objective 
 #### Design Process 
   - I decided on the interactive map feature for large screens only as using a small screen would be difficult to select specific points on the map.
   - When searching for potential maps on pxhere.com, I can accross a treasure island like map which suited the feature aestetically.
-  - Using the lightest and darkest colors from the map, I input this to https://mycolor.space/ to generate a 3 color gradient and thats when I choose a teal-like #5FFBF1 as my primary site color.
+  - Using the lightest and darkest colors from the map, I input this to https://mycolor.space/ to generate a 3 color gradient and thats when I chose a teal-like #5FFBF1 as my primary site color.
   - This color was used as the header font color thoughout.
   - Paragraph font was a standard black color throughout. 
   - Other features I decided on were a progress bar for skills, I took inspiration for thing for the mini-project as it is a great was to visually portray my skills.
@@ -84,22 +84,24 @@ I began this by using pen and paper with the bootstrap grid system in mind and o
 
 ### Surface Plane
 The final plane involves the execution of everything collated and in the previous 4 planes. 
-It is important to ensure this planes aligns to the previous 4 planes however when the real website is being designed different stylistic decidions can be made in a agile manner. For example, I decided on my font in this stage as I could visually identify by trial and error suitable options.
+It is important to ensure this planes aligns to the previous 4 planes however when the real website is being designed different stylistic decisions can be made in a agile manner. For example, I decided on my font in this stage as I could visually identify by trial and error suitable options.
 
 #### Features
 Breakdown of the website features currently implemented on the website.
 
 ##### Navbar
 I created the Navbar using Bootstrap and editing the color to suit my websites design.
+The Navbar also compresses to a drop down menu for the mobilt devices.
 
 ##### Home
-Simple image which I found on pxhere.com.
+The user is greeted with a simple image which I found on pxhere.com.
 I choose this as the yellow glow from the wood matches the teal and the map feature image to appear later.
 Additionally, the laptop, phone, books etc. represent convey a design/service use case for the website. 
 
 ##### About
-The About section contains a heading with a circle container and a circle headshop image.
-The end of the about section contains a progress bar section.
+The About section consists of "Who am I?" and "Skills" subsections.
+The user is greeted with a heading with a circle container and a circle headshop image.
+The skilld subsection contains multiple progress bars for visual effects.
 Other features include font awesome icons.
 
 ##### Experience
@@ -111,6 +113,7 @@ For mobile, I included the same content, however to make up for lack of visuals 
 
 ##### Porfolio
 For the portfolio seciton, I included a simple bootstrap grid design to show each project in a size-responsive manner.
+One of these links are active, the remaining three consists of projects due in the future.
 
 ##### Contact
 The contact seciton is designed using a bootstrap form.
@@ -121,14 +124,14 @@ I included a simple footer design, I used font awesome icons to represent each l
 
 #### Future Features
 Please see below list of features which I intend to implement at a later stage.
-- Media carosel: When an icon is selected in the desktop media section, I plan to implement a media carosel/slideshow for videos/images corresponding the the entry. Currently I have a link to youtube for each entry.
+- Media carosel: When an icon is selected in the desktop media section, I plan to implement a media carosel/slideshow for videos/images corresponding the the entry. This is so that the user can enjot the media without having to leave the website. Currently I have a link to youtube for each entry.
 - Background: I plan to implement subtle background styles for each section to aid the transition. For this version, I stayed with a white background but at a future stage I believe the website can benefit with some variety.
 - Responsity: I plan to improve the general responsity of the site once I have a greater JavaScript understanding, this includes the below.
   - Ensuring the Navbar reappears on scroll
   - Allowing progress bars to interactively appear
   - When desktop experience is landed on, map points appear one by one
 - Logo: The brand logo is currently represented by a teal CodeDoc in the top left hand corner. I plan to design a more unique logo using Adobe Illustrator in the future.
-- Language: I intent on translating the website to mandarin chinese to tailor for the chinese market. This feature will be an optional change which the user can action using a button.
+- Language: I intent on translating the website to Mandarin Chinese to tailor for the chinese market. This feature will be an optional change which the user can action using a trigger in the top corner.
 
 ## Technologies Used
 The main technologies used are as below.
@@ -159,7 +162,7 @@ The main technologies used are as below.
 - GitPod
   - Used to create, commit and push the HTML and CSS changes for the website.
 - GitHub
-  - Used to deplot the website and store files and code.
+  - Used to deploy the website and store files and code.
 - Stackoverflow
   - Used for problem solving to implement desired designs.
   - Used to gain better understanding of how I should approach the implementation of elements.
@@ -178,17 +181,18 @@ The main technologies used are as below.
    - The “Who am I?” section which is a sub section of the “About” section includes a paragraph outlining the developers experience immediately after the welcome image.
    - The menu includes an “experience” section where the user can choose to go directly to this information or alternatively scroll down to the “experience” section. On the desktop, the user can select the interactive map which will display experience depending on the location. On mobiles, the user receives a slightly different experience, the developers experience is separated into “Education” and “Employment” and entries are display newest to oldest.
    -	Media items are also included to route the user to videos or files relating to the developers experience in a new tab.
-   -	The user can also choose to select the LinkedIn icon in the footer section to view the developers work.
+   -	The user can also choose to select the LinkedIn icon in the footer section to view the developers professional experience.
 #### As a recruiter/potential client, I want to see the web developers’ skills, so that I can see if these skills match the job/project.
 
    -	The menu includes an “About” section where the user can choose to go directly to this information or alternatively scroll down to the “Skills” section which is located within the About section. Below the skills heading shows the developer 2 most important skills for web development, “Communication” and “Full Stack” with a description of the developers’ skills in these areas.
    -	Progress bars are then included to visually outline to the user the technical competencies of the developer.
-As a recruiter/potential client, I want to see the developer’s portfolio, so that I can see if his previous projects require capabilities relevant to this job/project.
+   
+#### As a recruiter/potential client, I want to see the developer’s portfolio, so that I can see if his previous projects required capabilities relevant to this job/project.
 
-   -	The menu includes a “portfolio” section where the user can choose to go directly to this information or alternatively scroll down to the “portfolio” section. The user can then select the relevant project which will route the user to the desired project in a new tab. (some project is yet to be complete which is displayed play (coming soon)).
+   -	The menu includes a “portfolio” section where the user can choose to go directly to this information or alternatively scroll down to the “portfolio” section. The user can then select the relevant project which will route the user to the desired project in a new tab. (some project is yet to be complete which is displayed by "(coming soon)").
    -	The user can also choose to select the GitHub icon in the footer section to view the developers work.
 #### As a recruiter/potential client, I want to easily find this information while appreciating the websites design, so that I can see that the developer is competent in front-end development.
-   -	The single pages long scroll website creates an easy on the eye continuity, feeding the user with more information. The website renders on all device sizes proving the developer’s competence in responsive web design. The experience map allows for an interactive experience for the user which portrays the users design capabilities in HTML and CSS.
+   -	The single paged long scroll website creates an easy on the eye continuity, feeding the user with more information. The website renders on all device sizes proving the developer’s competence in responsive web design. The experience map allows for an interactive experience for the user which portrays the users design capabilities in HTML and CSS.
 #### As a recruiter/potential client, if interested I want to contact to the developer, so that I can see if he is available for work.
 
    -	The menu includes a “contact” section where the user can choose to go directly to this information or alternatively scroll down to the “contact” section. This section is located at the bottom of the page as I feel proving capabilities is the priority before the user feels compelled to contact. 
@@ -200,7 +204,6 @@ As a recruiter/potential client, I want to see the developer’s portfolio, so t
 Tested and working consistently on the below browsers for desktop.
 - Google Chrome
 - Microsoft Edge 
-- Internet Explorer
 - Firefox
 
 - Mobile version manually tested throughout using google chrome on Xiaomi 8.
@@ -266,7 +269,7 @@ All the content was written by myself.
 - Inspiration for elements in the about and skills section layout came from the resume section of CodeInstitutes "Mini Project". This include the using the font aweson icons and the progress bars.
 - Inspiration to use fontawesome icons with hover glow in the footer section was also from the CodeInstitutes "Mini Project".
 - Inspiration for the circular headshot image in the about section came from the the HTML/CSS Project - love running section of the CSS Fundamentals module.
-- Thanks to the Code Institute Tutors for helping me problem solving, in particularly regarding the my experience section to satify the HTML W3 Validator.
+- Thanks to the Code Institute Tutors for helping me problem solving.
 - Thanks to my mentor, Mark Railton for guidence throughout the project.
 - The form submit button message prompt was completed using JavaScript written by Mark Railton. 
 - Thanks to the Code Institute Slack channel for providing me with a wealth of information on each aspect of the project.
