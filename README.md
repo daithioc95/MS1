@@ -74,7 +74,7 @@ This plane focuses on the arrangement of the sections and features of the websit
 - I created wireframes for both the mobile and browser to visualise the arrangment of my scope.
 I began this by using pen and paper with the bootstrap grid system in mind and once a general, responsive idea formed, I created the below using balsamiq.
 
-![Desktop Wireframe](assets/images/Desktop_Wireframe_Img.png=250x)![Mobile Wireframe](assets/images/Mobile_Wireframe_Img.png)
+![Desktop Wireframe](assets/images/Desktop_Wireframe_Img.png =250x)![Mobile Wireframe](assets/images/Mobile_Wireframe_Img.png)
 
 - The only major changes between the wireframes and the final site version is that I changed the mobile version portfolio section to include 1 entry per column as opposed to 2 in the wireframe.
 
