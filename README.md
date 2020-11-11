@@ -269,7 +269,7 @@ All the content was written by me.
 - Inspiration for elements in the about and skills section layout came from the resume section of CodeInstitutes "Mini Project". This include the using the font awesome icons and the progress bars.
 - Inspiration to use font awesome icons with hover glow in the footer section was also from the CodeInstitutes "Mini Project".
 - Inspiration for the circular headshot image in the about section came from the HTML/CSS Project - love running section of the CSS Fundamentals module.
-- Thanks to the Code Institute Tutors for helping me problem solving.
+- Thanks to the Code Institute Tutors for helping me with problem solving.
 - Thanks to my mentor, Mark Railton for guidance throughout the project.
 - The form submit button message prompt was completed using JavaScript written by Mark Railton. 
 - Thanks to the Code Institute Slack channel for providing me with a wealth of information on each aspect of the project.
