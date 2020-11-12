@@ -44,7 +44,7 @@ The scope plane is included to identify sections and features for the website.
 This is an important section of the process as it ensures the project aligns with the previous mentioned objectives in the Strategy Plane.
 It also reduces the risk of "Scope Creep" whereby project features grow in number throughout development.
 
-- Necessary sections which align to the user stories are identifies as below.
+- Necessary sections which align to the user stories are identified as below.
   - Home
   - About
   - Experience
