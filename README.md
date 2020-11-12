@@ -9,8 +9,8 @@ The website is a vehicle for my brand as a freelance web developer and a means o
 
 The website contains a simple design to ensure the primary function of providing information to the audience on devices of all sizes.
 To complement this, an interactive, easy on the eye design has been implemented.
-This will be achieved by executing a single paged long scroll website, with options to navigate to any particular sections using the menu bar.
-Implementing this design will keep the audience engaged and compliment the users stories by firstly feeding the user with “what” it is that the developer does, secondly, showing projects to convey “How” the developer do it and finally, providing a means of contact should they want to collaborate.
+This will be achieved by executing a single paged long scroll website, with options to navigate to any particular section using the menu bar.
+Implementing this design will ensure the audience is engaged and to compliment the users stories by firstly feeding the user with “what” it is that the developer does, secondly, showing projects to convey “How” the developer executes and finally, providing a means of contact should they want to collaborate.
 
 In creating my website, I followed the 5 levels of development below and have outlined these in the following headings.
 This is an effective means of web development which ensures an appropriate order of approach with each plane becoming less conceptual as the project evolves.
@@ -40,7 +40,7 @@ For this plane, the below primary objectives and user stories of the website wer
 - As a recruiter/potential client, if interested, I want to contact to the developer, so that I can see if he is available for work.
 
 ### Scope Plane
-The scope plane is included to identify needed sections and features for the website.
+The scope plane is included to identify sections and features for the website.
 This is an important section of the process as it ensures the project aligns with the previous mentioned objectives in the Strategy Plane.
 It also reduces the risk of "Scope Creep" whereby project features grow in number throughout development.
 
@@ -53,9 +53,10 @@ It also reduces the risk of "Scope Creep" whereby project features grow in numbe
   
  - The next stage of the process was to brainstorm features to ensure I Showcase my CSS & HTML skills to the user. 
  - In addition to the usual sections a portfolio website contains, I wanted to use an interactive map as a statement piece to showcase CSS skills and provide information on my international experience.
+ - The remaining features are mentioned in the surface plane section.
 
 ### Structure Plane
-The structure plane is the next stage which outlines how to projects sections and features will fit into the website.
+The structure plane is the next stage which outlines how the sections and features will fit into the website.
 While anticipating the text-heavy nature portfolio websites can be, my objective for this plane was to provide the content to the user in an interactive and easy to digest manner.
 
 #### Design Process 
@@ -64,7 +65,7 @@ While anticipating the text-heavy nature portfolio websites can be, my objective
   - Using the lightest and darkest colors from the map, I input this to https://mycolor.space/ to generate a 3 color gradient and that's when I chose a teal-like #5FFBF1 as my primary site color.
   - This color was used as the header font color throughout.
   - Paragraph font was a standard black color throughout. 
-  - Other features I decided on were a progress bar for skills, I took inspiration for thing for the mini-project as it is a great was to visually portray my skills.
+  - Other features I decided on were a progress bar for skills, I took inspiration for this from the CodeInstitutes mini-project as it is a great way to visually portray my skills.
   - Font Awesome Icons were used throughout the website to provide more information on sections and links.
  
 ### Skeleton Plane
@@ -75,16 +76,16 @@ This plane focuses on the arrangement of the sections and features of the websit
 I began this by using pen and paper with the bootstrap grid system in mind and once a general, responsive idea formed, I created the below using balsamiq.
 
 #### Desktop Wireframe
-<img src="assets/images/desktop_wireframe_img.png" width="80%">
+<img src="assets/images/desktop_wireframe_img.png">
 
 #### Mobile Wireframe
-<img src="assets/images/mobile_wireframe_img.png" width="160%">
+<img src="assets/images/mobile_wireframe_img.png">
 
 - The only major changes between the wireframes and the final site version is that I changed the mobile version portfolio section to include 1 entry per column as opposed to 2 in the wireframe.
 
 ### Surface Plane
 The final plane involves the execution of everything collated and in the previous 4 planes. 
-It is important to ensure this plane aligns to the previous 4 planes however when the real website is being designed different stylistic decisions can be made in an agile manner. For example, I decided on my font in this stage as I could visually identify by trial and error suitable options.
+It is important to ensure this plane aligns to the previous 4 planes however when the real website is being designed, different stylistic decisions can be made in an agile manner. For example, I decided on my font in this stage as I could visually identify by trial and error suitable options.
 
 #### Features
 Breakdown of the website features currently implemented on the website.
@@ -96,7 +97,7 @@ The Navbar also compresses to a drop-down menu for the mobile devices.
 ##### Home
 The user is greeted with a simple image which I found on pxhere.com.
 I choose this as the yellow glow from the wood matches the teal and the map feature image to appear later.
-Additionally, the laptop, phone, books etc. represent convey a design/service use case for the website. 
+Additionally, the laptop, phone, books featured in the image convey a design/service use case for the website. 
 
 ##### About
 The About section consists of "Who am I?" and "Skills" subsections.
@@ -117,7 +118,8 @@ One of these links are active, the remaining three consists of projects due in t
 
 ##### Contact
 The contact section is designed using a bootstrap form.
-An icon is used to transition into this section with relevant information prompted to contact the web developer. 
+This form is not active and when activated, a message prompt is given to the user.
+An icon is used to transition into this section with relevant information prompted to contact the web developer.
 
 ##### Footer
 I included a simple footer design, I used font awesome icons to represent each link. 
@@ -131,13 +133,13 @@ Please see below list of features which I intend to implement at a later stage.
   - Allowing progress bars to interactively appear
   - When desktop experience is landed on, map points appear one by one
 - Logo: The brand logo is currently represented by a teal CodeDoc in the top left-hand corner. I plan to design a more unique logo using Adobe Illustrator in the future.
-- Language: I intent on translating the website to Mandarin Chinese to tailor for the Chinese market. This feature will be an optional change which the user can action using a trigger in the top corner.
+- Language: I intend on translating the website to Mandarin Chinese to tailor for the Chinese market. This feature will be an optional change which the user can action using a trigger in the top corner.
 
 ## Technologies Used
 The main technologies used are as below.
 
 - HTML
-  Used to added content to the website
+  Used to add content to the website
 - CSS
   Used to add structure and design to my site
 - CodePen
@@ -158,7 +160,7 @@ The main technologies used are as below.
 - Google Fonts
   - Used for font implementation and inspiration.
 - https://mycolor.space/
-  -Used for pallet testing.
+  - Used for pallet testing.
 - GitPod
   - Used to create, commit and push the HTML and CSS changes for the website.
 - GitHub
@@ -179,31 +181,50 @@ The main technologies used are as below.
 #### As a recruiter/potential client, I want to see the web developers experience, so that I can see if this is relevant to the job/project requirements.
 
 - The “Who am I?” section which is a sub section of the “About” section includes a paragraph outlining the developers experience immediately after the welcome image.
+
 <img src="assets/images/user_story_testing/who_am_i.PNG">
+
 - The menu includes an “experience” section where the user can choose to go directly to this information or alternatively scroll down to the “experience” section. On the desktop, the user can select the interactive map which will display experience depending on the location. On mobiles, the user receives a slightly different experience, the developers experience is separated into “Education” and “Employment” and entries are display newest to oldest.
+
 <img src="assets/images/user_story_testing/desktop_experience.PNG">
+
 - Media items are also included to route the user to videos or files relating to the developers experience in a new tab.
+
 <img src="assets/images/user_story_testing/exp_media_items.PNG">
+
 - The user can also choose to select the LinkedIn icon in the footer section to view the developers' professional experience.
+
 <img src="assets/images/user_story_testing/li_icon.PNG">
+
 #### As a recruiter/potential client, I want to see the web developers’ skills, so that I can see if these skills match the job/project.
 
-- The menu includes an “About” section where the user can choose to go directly to this information or alternatively scroll down to the “Skills” section which is located within the About section. Below the skills heading shows the developer 2 most important skills for web development, “Communication” and “Full Stack” with a description of the developers’ skills in these areas.
+- The menu includes an “About” section where the user can choose to go directly to this information or alternatively scroll down to the “Skills” section which is located within the About section. Below the skills heading shows the developer's 2 most important skills for web development, “Communication” and “Full Stack” with a description of the developers’ skills in these areas.
 - Progress bars are then included to visually outline to the user the technical competencies of the developer.
+
 <img src="assets/images/user_story_testing/skills.PNG">
+
 #### As a recruiter/potential client, I want to see the developer’s portfolio, so that I can see if his previous projects required capabilities relevant to this job/project.
 
 - The menu includes a “portfolio” section where the user can choose to go directly to this information or alternatively scroll down to the “portfolio” section. The user can then select the relevant project which will route the user to the desired project in a new tab. (some project is yet to be complete which is displayed by "(coming soon)").
+
 <img src="assets/images/user_story_testing/portfolio.PNG">
+
 - The user can also choose to select the GitHub icon in the footer section to view the developers work.
+
 <img src="assets/images/user_story_testing/git_hub_icon.PNG">
+
 #### As a recruiter/potential client, I want to easily find this information while appreciating the websites design, so that I can see that the developer is competent in front-end development.
+
 - The single paged long scroll website creates an easy on the eye continuity, feeding the user with more information. The website renders on all device sizes proving the developer’s competence in responsive web design. The experience map allows for an interactive experience for the user which portrays the users design capabilities in HTML and CSS.
 #### As a recruiter/potential client, if interested I want to contact to the developer, so that I can see if he is available for work.
+
 - The menu includes a “contact” section where the user can choose to go directly to this information or alternatively scroll down to the “contact” section. This section is located at the bottom of the page as I feel proving capabilities is the priority before the user feels compelled to contact. 
 - The contact section consists of a heading “Lets collaborate” and subheading “Fill in the below with info on your project”, opening the invitation to the user to contact for work.
+
 <img src="assets/images/user_story_testing/contact.PNG">
+
 - The user can also choose to select the Envelope icon in the footer section to email the developer directly.
+
 <img src="assets/images/user_story_testing/mail_icon.PNG">
 
 ### Browsers
@@ -229,8 +250,10 @@ Tested and working consistently on the below browsers for desktop.
   - Galaxy Fold
 
 - The project passed the below validation tests.
-  - W3 HTML Validator
-  - Jigsaw CSS Validator
+  - W3 HTML Validator: https://validator.w3.org/
+    - <img src="assets/images/user_story_testing/w3validator_html.PNG">
+  - Jigsaw CSS Validator: https://validator.w3.org/
+    - <img src="assets/images/user_story_testing/w3validator_css.PNG">
 
 ## Deployment
 This project was created using Gitpod for commit and push actions.
