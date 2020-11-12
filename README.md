@@ -251,10 +251,10 @@ Tested and working consistently on the below browsers for desktop.
 
 - The project passed the below validation tests.
   - W3 HTML Validator: https://validator.w3.org/
-    - <img src="assets/images/user_story_testing/w3validator_html.PNG">
+    
+    - <a href="assets/images/user_story_testing/w3validator_html.PNG" target="_blank">HTML Validator success</a>
   - Jigsaw CSS Validator: https://validator.w3.org/
-    - <img src="assets/images/user_story_testing/w3validator_css.PNG">
-
+    - <a href="assets/images/user_story_testing/w3validator_css.PNG" target="_blank">CSS Validator success</a>
 ## Deployment
 This project was created using Gitpod for commit and push actions.
 This project was deployed using GitHub pages at https://daithioc95.github.io/MS1 as below
