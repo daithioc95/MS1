@@ -276,7 +276,7 @@ If you wish to clone this project, action the following instructions.
 
 ## Known Bugs and Fixes
 - Progress Bars
-  - When rendered to mobile size, the progress bars for 70% and 80% render to an almost identical size. This is a known bug which I plan to correct later on.
+  - When rendered to mobile size, the progress bars for 70% and 80% render to an almost identical size. This is a known bug which I plan to correct in the future.
 
 ## Credits
 ### Content
@@ -301,4 +301,4 @@ All the content was written by me.
 - Thanks to the Code Institute Tutors for helping me with problem solving.
 - Thanks to my mentor, Mark Railton for guidance throughout the project.
 - The form submit button message prompt was completed using JavaScript written by Mark Railton. 
-- Thanks to the Code Institute Slack channel for providing me with a wealth of information on each aspect of the project.
+- Thanks to the Code Institute Slack channel for providing me with a wealth of information on every aspect of the project.
