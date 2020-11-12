@@ -115,7 +115,7 @@ h2 {
     height: 120px;
     padding: 0px;
     margin: 0 auto;
-    background: url("../images/logos/Zhejiang_University_Logo.png") no-repeat center center;
+    background: url("../images/logos/zhejiang_university_logo.png") no-repeat center center;
     background-size: cover;
     border-radius: 50%;
 }
@@ -125,7 +125,7 @@ h2 {
     height: 120px;
     padding: 0px;
     margin: 0 auto;
-    background: url("../images/logos/UCD_logo.png") no-repeat center center;
+    background: url("../images/logos/ucd_logo.png") no-repeat center center;
     background-size: contain;
 }
 
@@ -134,7 +134,7 @@ h2 {
     height: 120px;
     padding: 0px;
     margin: 0 auto;
-    background: url("../images/logos/PPB_logo.jpg") no-repeat center center;
+    background: url("../images/logos/ppb_logo.jpg") no-repeat center center;
     background-size: contain;
 }
 
