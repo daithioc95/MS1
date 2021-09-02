@@ -1,6 +1,7 @@
 # User Centric Frontend Development Milestone Project 
 ![Device Responsive Image Theme](assets/images/responsive_theme.PNG)
 
+<a href="https://daithioc95.github.io/MS1/" target="_blank">Visit Website</a><br>
 This project is a portfolio website to showcase my skills and experience to recruiters and potential clients.
 This is an interactive website which include designs which can be appreciated by the user.
 The website is a vehicle for my brand as a freelance web developer and a means of contact for interested parties.
