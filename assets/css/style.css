@@ -542,6 +542,12 @@ footer {
 	top: 10%;
 }
 
+@media (max-width: 576px) {
+	.portfolio-modal {
+		top: 3%;
+	}
+}
+
 @media (min-width: 576px) {
 	.modal-dialog {
 		max-width: 60%;
